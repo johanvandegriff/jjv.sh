@@ -11,7 +11,7 @@ I just got back from Hoya Hacks, a hackathon a Georgetown this past weekend. Som
 Make sure hardware works before the event. If you are going to use a Raspberry Pi, for example, make sure it boots up, you remember the password, install updates, etc.
  * Go for the challenges, for example we used MongoDB to store our data even though we could have just put it in a file. We didn't win the MongoDB prize, but I did learn a lot. Also we spent some time brainstorming a domain name, which is how we won the award for best domain.
  * Make something fun: at bitcamp last year, we made a trash can that insults you when you put recycling in, and won most entertaining! (it actually couldn't tell between trash and recycling, so it would always insult you :)
- * Or make something you need/want, that way even if you don't win, you can still use it! One time we made a chatbot, and we didn't win but I still enjoy talking to it sometimes: https://games.johanv.xyz/carl
+ * Or make something you need/want, that way even if you don't win, you can still use it! One time we made a chatbot, and we didn't win but I still enjoy talking to it sometimes: https://games.johanv.net/carl
  * Add this stuff to your resume, and you can even include a link to the project. Employers will be impressed that not only do you know flask, but you also have a public flask app on the internet to prove it! And if you ask me, getting an internship means you were the real hackathon winner. :)
 
 Here's some upcoming hackathons at umd:

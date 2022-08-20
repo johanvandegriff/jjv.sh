@@ -1,5 +1,5 @@
 I have a random fact generator on my website.
-These fun facts are stored in johanv.xyz/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
+These fun facts are stored in johanv.net/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
 The "get new fact!" button is my first time using jQuery and Ajax.
 I enjoy playing piano! I was classically trained and now I just play and compose for fun. I can't read sheet music in real time so I play mostly by ear. I have released an <a target="_blank" href="https://odysee.com/@johanv:5/internal-travels:d">album with my piano music</a>, complete with a drawing for each song.
 My favorite movie is The Incredibles. A great superhero story before the Avengers came and saturated the market and our collective brainspace.
@@ -30,7 +30,7 @@ My siblings and I have been making and filming little skits and stories since we
 I might need glasses... I tried my friend's glasses on and things were just a little bit easier to read from far away.
 I don't drink coffee or tea (except sometimes iced tea).
 I hate skim milk. It's just water lying about being milk.
-For my whole life, I have lived in Maryland. The longest period of time I've spent outside MD was 7 weeks in summer 2019, when I went on an immersive <a href="https://blog.johanv.xyz/bridge-dc">justice program in DC</a> with the IV Christian Fellowship.
+For my whole life, I have lived in Maryland. The longest period of time I've spent outside MD was 7 weeks in summer 2019, when I went on an immersive <a href="https://johanv.net/blog/bridge-dc">justice program in DC</a> with the IV Christian Fellowship.
 I have never invested in a pair of earbuds good enough that at least one of the two buds doesn't die within a few months. Right now I have a pair of old apple wired earbuds that someone gave me.
 I have stopped buying water bottles because I just keep losing them. Instead I just buy a juice bottle and reuse it.
 I carry around a USB with 15 different boot options, including some Linux distros, utilities, and backup software. It also has a portable version of Libreoffice for Windows in case I need to give a presentation and Powerpoint can't read my .odp files correctly.
@@ -51,7 +51,7 @@ My favorite programming languages in order are Python, Bash, Java, and C. One of
 I sometimes stream on <a target="_blank" href="https://www.twitch.tv/jjvantheman">twitch</a>, <a target="_blank" href="https://youtube.com/user/jjvantheman">youtube</a>, <a target="_blank" href="https://dlive.tv/jjvantheman">dlive</a>, <a target="_blank" href="https://odysee.com/@johanv:5/live:a">odysee</a>, <a target="_blank" href="https://diode.zone/c/johanv/videos">peertube</a>, and <a href="https://johanv.net">my own custom site</a> all at the same time!
 I just started playing chess more seriously (on <a target="_blank" href="https://lichess.org/@/jjvan">lichess</a>) and I'm still terrible at it.
 I learned how to salsa dance.
-I created a streaming service called <a target="_blank" href="https://asciiradio.johanv.xyz">asciiradio</a> for text and audio only, so I could stream from mobile data.
+I created a streaming service called <a target="_blank" href="https://asciiradio.johanv.net">asciiradio</a> for text and audio only, so I could stream from mobile data.
 My Mom uses Linux Mint.
 One of my favorite shows is Callisto 6, a tabletop RPG livestream show about superheroes in a cyberpunk setting.
 I've been learning Golang and Elixir recently since I want to take advantage of concurrent programming.

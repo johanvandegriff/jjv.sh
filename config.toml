@@ -20,7 +20,7 @@ ignoreFiles = ["gallery/.*"]
     weight = 1
   [[menu.main]]
     name = "games"
-    url = "https://games.johanv.xyz/"
+    url = "https://games.johanv.net/"
     weight = 2
   [[menu.main]]
     name = "blog"
