@@ -28,7 +28,7 @@
         </video>
         {{- else -}}
         <a data-fancybox="gallery" href="{{ . }}">
-            <img src="{{ (.Fill "200x200 q100 Center").RelPermalink }}">
+            <img src="{{ (.Fill "200x200 q100 Center").RelPermalink }}" alt="">
         </a>
         {{- end -}}
     {{- end -}}

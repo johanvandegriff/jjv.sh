@@ -6,7 +6,7 @@ tags: ["featured"]
 
 I just got back from Hoya Hacks, a hackathon a Georgetown this past weekend. Someone asked me by email what tips I had to win hackathons (since I [have won multiple prizes](https://devpost.com/johanvandegriff) heh heh :), and I responded:
 
- * Incorporate some hardware, such as Raspberry Pi or Arduino. Hoya Hacks didnt have a prize for best hardware, but some do and either way, hardware usually makes your project stand out.
+ * Incorporate some hardware, such as Raspberry Pi or Arduino. Hoya Hacks didn't have a prize for best hardware, but some do and either way, hardware usually makes your project stand out.
  * I like to bring my own hardware because the MLH hardware lab sometimes doesn't have a great selection, or they run out. If you come to Bitcamp (at UMD in April), I can lend you some stuff.
 Make sure hardware works before the event. If you are going to use a Raspberry Pi, for example, make sure it boots up, you remember the password, install updates, etc.
  * Go for the challenges, for example we used MongoDB to store our data even though we could have just put it in a file. We didn't win the MongoDB prize, but I did learn a lot. Also we spent some time brainstorming a domain name, which is how we won the award for best domain.

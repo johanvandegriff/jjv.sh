@@ -8,7 +8,7 @@
       <div class="boxes boxes-chat-hidden" style="grid-template-columns: auto;">
         <div class="box flex-rc">
           <div class="flex flex-cr items-center">
-            <img src="/logo" style="border-radius: 100%; min-width: var(--user-image-width);width: var(--user-image-width);height: var(--user-image-width);max-height: var(--user-image-width); margin: 1rem" />
+            <img src="/logo" alt="logo" style="border-radius: 100%; min-width: var(--user-image-width);width: var(--user-image-width);height: var(--user-image-width);max-height: var(--user-image-width); margin: 1rem" />
               <div>
                 <ul style="display: flex; flex-wrap: wrap; list-style-type: none" class="social-list m-2 text-center">
                   <p class="follow-icon-list flex flex-row items-center justify-center flex-wrap">
@@ -60,14 +60,14 @@
 
         <div class="box">
           <h2>recent</h2>
-          <img class="popup" style="width:30%; display:block; float: right; max-width: 300px; border-radius: 12px; margin: 5px" src="/ATinyGame/off.jpg">
+          <img class="popup" style="width:30%; display:block; float: right; max-width: 300px; border-radius: 12px; margin: 5px" src="/ATinyGame/off.jpg" alt="picture of ATinyGame">
           <p>My most recent project is <a target="_self" href="/ATinyGame/">ATinyGame</a>, a $1 handheld game console with 5 different games, including whack-a-mole, stacker (like at an arcade), and a memory game. It only has 1kB of storage, and 32B of ram (bytes, not gigabytes or megabytes), so I had to write the code in assembly.</p>
           <form target="_self" method="get" action="/ATinyGame/"><button>simulate it online</button></form>
         </div>
 
         <div class="box">
           <h2>boggle</h2>
-          <img class="popup" style="width:25%; display:block; float: right; max-width: 300px; margin: 5px" src="https://games.johanv.net/static/boggle/5x5.png">
+          <img class="popup" style="width:25%; display:block; float: right; max-width: 300px; margin: 5px" src="https://games.johanv.net/static/boggle/5x5.png" alt="boggle board">
 
           <p>This is probably the reason you ended up on my site, to play this awesome game and ignore all the other stuff here.
           But who could blame you, after all BOGGLE is the <b>BO</b>mb di<b>GG</b>ety <b>LE</b>tter game!</p>
@@ -85,14 +85,15 @@
 
         <div class="box">
           <h2 id="drawings">drawings</h2>
-          <img class="popup" src="/gallery/drawings/images/0_2019-05-13_ErasableIncAndFriends.png" id="drawing" style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" alt="Draing of the Erasable Inc Improv Group at UMD and Friends">    <p>This is a drawing I made of the <a target="_blank" href="https://twitter.com/ErasableInc">Erasable Inc.</a> improv group at the University of Maryland (UMD) after their 24-hour show. (click the image for full size)</p>
+          <img class="popup" src="/gallery/drawings/images/0_2019-05-13_ErasableIncAndFriends.png" id="drawing" style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" alt="Draing of the Erasable Inc Improv Group at UMD and Friends">
+          <p>This is a drawing I made of the <a target="_blank" href="https://twitter.com/ErasableInc">Erasable Inc.</a> improv group at the University of Maryland (UMD) after their 24-hour show. (click the image for full size)</p>
           <p>For this drawing and others, I used the free and open source drawing software <a target="_blank" href="https://krita.org/">Krita</a> and a Wacom tablet on Linux.</p>
           <form target="_self" method="get" action="/gallery/"><input type="hidden" name="g" value="Drawings" /><button>see more</button></form>
         </div>
 
         <div class="box">
           <h2 id="videos">videos</h2>
-          <a target="_blank"href="https://odysee.com/@johanv:5/makers-case-gemstone-commercial:e"><img style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" src="/makers-case.jpg"></a>
+          <a target="_blank"href="https://odysee.com/@johanv:5/makers-case-gemstone-commercial:e"><img style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" src="/makers-case.jpg" alt="maker's case video thumbnail"></a>
           <p>I publish my videos on <a target="_blank" href="https://odysee.com/@johanv:5">Odysee</a>, an awesome new platform that solves the demonitization issues of YouTube! <a target="_blank" href="https://odysee.com/$/invite/@johanv:5">Follow me with my invite link</a>. This video is for a propsed research project for Gemstone at UMD. I ended up joining another project instead, but I still have the initial version and plan to make it into a product someday.</p>
           <form target="_self" method="get" action="/videos/"><button>watch more</button></form>
         </div>
