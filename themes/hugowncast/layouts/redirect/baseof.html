@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<script>window.location="{{ .Params.redirect }}"</script>
+<title>Redirect to {{ .Params.redirect }}</title>
+</head><body>
+<h1>Redirecting...</h1>
+<p>If you are not redirected, click the link directly:</p>
+<p><a href="{{ .Params.redirect }}">{{ .Params.redirect }}</a>
+</body></html>

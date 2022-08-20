@@ -1,0 +1,162 @@
+{{ define "main" }}
+    <style>
+      /* .custom-thumbnail-image {background-image: none !important;} */
+      /* .custom-thumbnail-image {background-image: url("/gallery/drawings/images/sick-gamer-setup-6-johanv.tv-small-dark.png") !important;} */
+      .custom-thumbnail-image {background-image: url("/gallery/drawings/images/sick-gamer-setup-blank-small.png") !important;}
+    </style>
+    <section id="content">
+      <div class="boxes boxes-chat-hidden" style="grid-template-columns: auto;">
+        <div class="box flex-rc">
+          <div class="flex flex-cr items-center">
+            <img src="/logo" style="border-radius: 100%; min-width: var(--user-image-width);width: var(--user-image-width);height: var(--user-image-width);max-height: var(--user-image-width); margin: 1rem" />
+              <div>
+                <ul style="display: flex; flex-wrap: wrap; list-style-type: none" class="social-list m-2 text-center">
+                  <p class="follow-icon-list flex flex-row items-center justify-center flex-wrap">
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://github.com/johanvandegriff"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/github.svg&quot;);" title="Find me on github"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on github</span></a></li>
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://keyoxide.org/CB274A4B4E0B24B79A86FB98121A0B83683707DB"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/keyoxide.png&quot;);" title="Find me on keyoxide"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on keyoxide</span></a></li>
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://fosstodon.org/@johanv"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/mastodon.svg&quot;);" title="Find me on mastodon"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on mastodon</span></a></li>
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://odysee.com/@johanv:5"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/odysee.svg&quot;);" title="Find me on odysee"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on odysee</span></a></li>
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://www.twitch.tv/jjvantheman"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/twitch.svg&quot;);" title="Find me on twitch"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on twitch</span></a></li>
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://youtube.com/user/jjvantheman"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/youtube.svg&quot;);" title="Find me on youtube"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on youtube</span></a></li>
+                    <!-- <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://jjv.sh"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/follow.svg&quot;);" title="Find me on follow"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on follow</span></a></li> -->
+                    <li><a class="user-social-item flex m-1" target="_blank" rel="me" href="https://jjv.sh"><span class="platform-icon rounded-lg bg-no-repeat" style="background-image: url(&quot;/img/platformlogos/default.svg&quot;);" title="Find me on more"></span><span class="platform-label visually-hidden text-indigo-800 text-xs uppercase max-w-xs inline-block">Find me on more</span></a></li>
+                  </p>
+                </ul>
+              </div>
+          </div>
+          <div class="user-content-header">
+            <div class="my-4">
+              <p>My name's Johan, welcome to my site! I'm passionate about open technology, spirituality, and music, and I love teaching others what I know. Sometimes I lack motivation and self-esteem, but I'm slowly learning to cut myself some slack. I probably spend more time installing things than using things. <a target="_self" href="/about/">more about me</a></p>
+              <p class="my-2">This site is also my livestream. When I go live, you will see my face in a video frame at the top of the page. :]</p>
+              <div class="text-gray-600 my-2">#music #gaming #english #streaming #programming #tech</div>
+              <p>
+                multistreamed live to:
+                <a href="https://odysee.com/@johanv:5/live:47c">odysee</a> (<a href="https://odysee.com/@johanv">VODs</a>) |
+                <a href="https://youtube.com/user/jjvantheman">youtube</a> (<a href="https://www.youtube.com/playlist?list=PL9MPtw9DDuDJBfVToJkkUYetGn_gYYes4">VODs</a>) |
+                <a href="https://www.twitch.tv/jjvantheman">twitch</a> |
+                <a href="https://dlive.tv/jjvantheman">dlive</a> |
+                <a href="https://rtmp.johan.vandegriff.net/">rtmp</a></p>
+              <p>find me:
+              <a href="https://codeberg.org/johanvandegriff">codeberg</a> |
+              <a href="https://git.sr.ht/~johanvandegriff/">sourcehut</a> |
+              <a href="https://lichess.org/@/jjvan">lichess</a> |
+              <a href="https://drawception.com/player/962191/johanv/drawings/1/">drawception</a> |
+              <a href="https://devpost.com/johanvandegriff">devpost</a> |
+              <a href="https://alt.org/nethack/plr.php?player=jjvan">nethack</a> |
+              <a href="https://instructables.com/member/jjvan/">instructables</a> |
+              <a href="https://easyeda.com/jjvan">easyeda</a> |
+              <a href="https://scratch.mit.edu/users/jjvan/">scratch</a> |
+              <a href="https://diode.zone/c/johanv/videos">peertube</a></p>
+            </div>
+            <p>Here's a random interesting fact about me:</p>
+            <p id="fact"></p>
+            <button id="fact-button" onclick="getFact()">new fact!</button>
+          </div>
+        </div>
+      </div>
+      <div class="boxes boxes-chat-hidden">
+        <!-- <div class="box">
+          <img src="/gallery/drawings/images/sick-gamer-setup-blank-small.png" style="border-radius: 15px;" />
+        </div> -->
+
+        <div class="box">
+          <h2>recent</h2>
+          <img class="popup" style="width:30%; display:block; float: right; max-width: 300px; border-radius: 12px; margin: 5px" src="/ATinyGame/off.jpg">
+          <p>My most recent project is <a target="_self" href="/ATinyGame/">ATinyGame</a>, a $1 handheld game console with 5 different games, including whack-a-mole, stacker (like at an arcade), and a memory game. It only has 1kB of storage, and 32B of ram (bytes, not gigabytes or megabytes), so I had to write the code in assembly.</p>
+          <form target="_self" method="get" action="/ATinyGame/"><button>simulate it online</button></form>
+        </div>
+
+        <div class="box">
+          <h2>boggle</h2>
+          <img class="popup" style="width:25%; display:block; float: right; max-width: 300px; margin: 5px" src="https://games.johan.vandegriff.net/static/boggle/5x5.png">
+
+          <p>This is probably the reason you ended up on my site, to play this awesome game and ignore all the other stuff here.
+          But who could blame you, after all BOGGLE is the <b>BO</b>mb di<b>GG</b>ety <b>LE</b>tter game!</p>
+          <form target="_self" method="get" action="https://games.johan.vandegriff.net/boggle">
+            <input style="font-size: 1em; margin: 1em auto; padding: .5em .6em; border: none; border-bottom: 2px solid black; outline: 0;" type="text" id="name" name="username" placeholder="nickname" required/>
+            <button type="submit">play</button>
+          </form>
+          <p>Other than boggle, I made a few more <a target="_self" href="https://games.johan.vandegriff.net/">online games</a>, including <a target="_self" href="https://games.johan.vandegriff.net/carl">CARL</a>, a chatbot that learns phrases from you. You can also check out my old stuff on <a target="_blank" href="https://scratch.mit.edu/users/jjvan/">scratch</a>.</p>
+
+          <a target="_self" href="https://games.johan.vandegriff.net/carl">CARL says:</a><br/><embed height="60" width="315" src="https://games.johan.vandegriff.net/carl_api"/>
+
+          <form target="_self" method="get" action="https://games.johan.vandegriff.net/"><button>play games</button></form>
+        </div>
+
+
+        <div class="box">
+          <h2 id="drawings">drawings</h2>
+          <img class="popup" src="/gallery/drawings/images/0_2019-05-13_ErasableIncAndFriends.png" id="drawing" style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" alt="Draing of the Erasable Inc Improv Group at UMD and Friends">    <p>This is a drawing I made of the <a target="_blank" href="https://twitter.com/ErasableInc">Erasable Inc.</a> improv group at the University of Maryland (UMD) after their 24-hour show. (click the image for full size)</p>
+          <p>For this drawing and others, I used the free and open source drawing software <a target="_blank" href="https://krita.org/">Krita</a> and a Wacom tablet on Linux.</p>
+          <form target="_self" method="get" action="/gallery/"><input type="hidden" name="g" value="Drawings" /><button>see more</button></form>
+        </div>
+
+        <div class="box">
+          <h2 id="videos">videos</h2>
+          <a href="https://odysee.com/@johanv:5/makers-case-gemstone-commercial:e"><img style="width:66%; display:block; float: right; border-radius: 12px; margin: 5px" src="/makers-case.jpg"></a>
+          <p>I publish my videos on <a target="_blank" href="https://odysee.com/@johanv:5">Odysee</a>, an awesome new platform that solves the demonitization issues of YouTube! <a target="_blank" href="https://odysee.com/$/invite/@johanv:5">Follow me with my invite link</a>. This video is for a propsed research project for Gemstone at UMD. I ended up joining another project instead, but I still have the initial version and plan to make it into a product someday.</p>
+          <form target="_self" method="get" action="/videos/"><button>watch more</button></form>
+        </div>
+
+        <div class="box">
+          <h2 id="blog">blog</h2>
+          <p>Here's a snippet from <a target="_self" href="/blog/log-e-tales-from-the-electron-volts/">a quintessential blog post</a> of mine:</p>
+          <p class="mono">An account follows of the myriad of adventures I have had with the electronVolts. My aim is that the narrative shall be as accurate as possible and will serve useful in reference during future events.</p>
+          <p class="mono">Saturday, October 1, 2016</p>
+          <p class="mono">We were visited by a band of rookies. They do not perceive the insurmountable tasks that lie ahead of them. I attempted to affright them by disclosing to them the monster that is The Code, but alas, they took an interest in this beast. I fear there is no way to warn them; their days ahead appear grim.</p>
+          <p class="mono">The Great Git attacked our code today. I researched its weaknesses in the Archives of Google and found individuals who were in a similar predicament. Armed with this knowledge, we were able to send it howling back from whence it came.</p>
+          <form target="_self" method="get" action="/blog/"><button>read more</button></form>
+        </div>
+
+        <div class="box">
+          <h2 id="projects">projects</h2>
+          <p>Here are some of my projects:</p>
+          <ul>
+            <li><a target="_self" href="/ArduinOLED/">ArduinOLED</a> - A handheld Arduino-based platform to create games, test equipment, and other projects. <a target="_self" href="/ArduinOLED/">Learn how to make and use it!</a></li>
+            <li><a target="_self" href="/hexagame/">HexaGame</a> - A handheld multi-game system that consists of a hexagon of LEDs with buttons surrounding it, as well as a hex-shaped dpad.</li>
+            <li><a target="_self" href="/games-system/">GAMES</a> (Glamorous Automatic Multi-game Emulator System) - A tiny Arduino game system with a 3x3 LED screen and 4 buttons.</li>
+            <li><a target="_self" href="/calculator/">Calculator</a> - A calculator you can run in the terminal.</li>
+            <li><a target="_self" href="/quest/">Quest Game</a> - A roguelike game I am working on.</li>
+            <li><a target="_self" href="/asocialsafety.net/">asocialsafety.net</a> (archived) - The website for a hackathon project my friends and I made.</li>
+            <li><a target="_self" href="/configs/">My Config Files</a> - Some files with settings the way I like them, with descriptions.</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2 id="resume">resume</h2>
+          <img class="popup" src="/gallery/random/images/GSFC.jpg" style="width:40%; display:block; float: right; border-radius: 12px; margin: 5px" alt="me with my internship mentors and poster">
+          <h3>NASA GSFC Internship</h3>
+          <h4>summer 2017</h4>
+          <p>I fixed bugs in C code for <a target="_blank" href="https://cfs.gsfc.nasa.gov/">NASA’s core Flight System</a> by writing unit tests on a CentOS Linux virtual machine (using VirtualBox). To help write unit tests, I wrote some bash scripts to generate skeleton functions, then filled them in manually with code to test each case. At the end of the summer, I created a <a target="_blank" href="/resume/images/GSFC_poster.png">poster</a> and presented it at a lab-wide showcase day.</p>
+          <form target="_self" method="get" action="/resume/"><button>full resume</button></form>
+        </div>
+
+        <div class="box">
+          <h2 id="contact">contact</h2>
+          <img class="popup" src="/gallery/random/images/IMG_20190301_154227.jpg" style="width:20%; display:block; float: right; border-radius: 12px; margin: 5px" alt="picture of me">
+          <p>Feel free to contact me, I have multiple ways to <a target="_self" href="/contact/">get in touch securely</a>. You can also follow me on <a rel="me" href="https://fosstodon.org/@johanv">Mastodon</a> or click on the icons on the top left of the page.</p>
+          <form target="_self" method="get" action="/contact/"><button>contact me</button></form>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript">
+
+function myRequest(url, callback) {
+  let xhr = new XMLHttpRequest();
+  xhr.open('get', url);
+  xhr.send();
+  xhr.onload = function () {
+    callback(xhr.response);
+  };
+}
+
+function getFact() {
+  myRequest("/facts.txt", res => {
+    const facts = res.split("\n").filter(x=>x);
+    const random_fact = facts[Math.floor(Math.random() * facts.length)];
+    document.getElementById("fact").innerHTML = random_fact;
+  });
+}
+    </script>
+{{ end }}

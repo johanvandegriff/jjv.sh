@@ -1,0 +1,52 @@
+baseURL = "https://johanv.net/"
+languageCode = "en-us"
+title = "johanv.net"
+theme = "hugowncast"
+timeout = "5m"
+disablePathToLower = true
+cleanDestinationDir = false
+ignoreFiles = ["gallery/.*"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[permalinks]
+  tags = "/:title/"
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "games"
+    url = "https://games.johanv.xyz/"
+    weight = 2
+  [[menu.main]]
+    name = "blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "featured"
+    url = "/featured/"
+    weight = 4
+  [[menu.main]]
+    name = "videos"
+    url = "/videos/"
+    weight = 5
+  [[menu.main]]
+    name = "gallery"
+    url = "/gallery/"
+    weight = 6
+  [[menu.main]]
+    name = "resume"
+    url = "/resume/"
+    weight = 7
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 8
+  [[menu.main]]
+    name = "contact"
+    url = "/contact/"
+    weight = 9

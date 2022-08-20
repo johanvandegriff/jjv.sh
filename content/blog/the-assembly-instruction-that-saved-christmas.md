@@ -1,0 +1,23 @@
+---
+title: "The Assembly Instruction that Saved Christmas"
+date: 2021-12-25T06:22:11-04:00
+tags: ["featured"]
+---
+
+Christmas Eve, 5pm-ish. The gifts I'm making for my family are still not done. I'm hunched over my laptop, desperately code-golfing to try and shave 20 bytes off my assembly code to fit within the 1kB of program memory on the ATTiny9. How did we get here?
+
+About 5 years ago (I had just graduated high school (I'm done with college now)), I started a project that I thought would be fun: buying a 25 cent computer and some LEDs, and creating handheld games for less than a dollar each. Imagine my disappointment when the custom circuit boards I ordered finally came in, but they didn't work because I made a mistake in the design. Not knowing what to do, and becoming more busy with the start of college, I shelved the project, most likely never to be completed.
+
+Fast forward to a few weeks ago, when I was cleaning out my old electronics bins and I found the old project. I figure that Christmas is coming up and it could be a nice gift for folks, and maybe my computer engineering degree will make it a success this time around. After kicking myself that I didn't write good documentation, I got to work. To my surprise, I was able to salvage the defunct circuit boards by reversing the polarity of some components (sounds like technobabble but it's true in this rare case).
+
+Then it was time to tackle the software. I was working with only 1kB of storage and 32 bytes of memory, so I decided to use assembly. Finally my CMSC216 (Intro to Computer Systems) and ENEE350 (Computer Organization) classes came in handy! Through the next few weeks I created the games and the functions needed to support them. Displaying to the screen? Check. Reading Buttons? Check. "Random" number generator? Check. Simple tests, helper functions, building up to the first game: the stacker (like the arcade game), then whack-a-mole, memory game, etc.
+
+And that brings us to Christmas Eve, 5pm. Ish. All the games are done and tested, but I can't load them all on the handheld because it is just 20 bytes over the 1024 byte storage capacity. I guess you could say I.... BIT off more than I could chew! Badum tssss.... Hmmm... Tough crowd.... Anyway, another problem is that I only have one copy of the hardware built, and it takes about 45 minutes to make each one.
+
+So I'm combing through my code, and at first I'm able to shave off a byte here or there, but I'm finding fewer and fewer ways to reduce it. So I decide to do something crazy: read the manual! Looking through the list of available instructions, instead of being stuck on my existing code, might provide some new inspiration of a different way to do things that I had missed. Then I encounter the two (that's right, not 1 not 255 but 2) majestic guardian angels that would save my bacon, put my ducks in a row, and shelve my elves; the Tweedledee and Tweedledum of assembly; the trifecta without the third one: BST and BLD!
+
+Ok pause, quick side note. You might be wondering why I'm such a nerd that I get excited about some stupid assembly instructions when so many other things are more important. Well, first of all, you have a point, and second of all, I get excited for the same reason I started this project: to learn and explore the world of computers, in and out, for fun and for mastery of technology. If I wanted it to work on the first try, I could have just used an Arduino (which I actually did for prototyping), but I wanted to see if I could squeeze the most out of a 25 cent computer and it turns out, I... couldn't, but later I could! Ok, back to the story.
+
+The clouds parted and BST and BLD shone through! These instructions basically let me copy 1 bit from a variable to any bit of any other variable. Armed with this newfound power, I sliced and diced at the code, finally able to cut with fine-grain accuracy. For example, I could shorten the way pixels are copied from one location on the screen to another. When the dust settled, the byte count was.... 1018! Just under 1024, with 6 bytes to spare. It's a Christmas Miracle™. (Of course then I still had to spend several hours soldering a few copies of the handheld, but that's neither here nor there. Actually it is there. "There" being the soldering station. Or as I call it, Santa's Workshop as a Service (SWaaS).)
+
+And that's the story of the assembly instruction(s) that saved Christmas. More deets about the project [here](/ATinyGame/).
