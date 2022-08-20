@@ -1,5 +1,5 @@
 ---
-title: "Sabbath Podcast"
+title: "Sabbath Podcast: Rethink the Cycle of Work and Rest"
 date: 2020-10-08T10:47:44-04:00
 tags: []
 ---

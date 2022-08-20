@@ -1,5 +1,5 @@
 ---
-title: "Bridge DC"
+title: "Bridge DC (or: How I Learned to Stop Worrying and Love My Neighbor)"
 date: 2019-08-03T19:27:02-04:00
 tags: ["featured"]
 ---

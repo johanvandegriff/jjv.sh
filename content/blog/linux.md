@@ -1,5 +1,5 @@
 ---
-title: "Linux!"
+title: "Linux! (or as I've recently taken to calling it, GNUbody cares about saying the full name)"
 date: 2018-04-10T15:00:00-04:00
 tags: ["featured"]
 ---

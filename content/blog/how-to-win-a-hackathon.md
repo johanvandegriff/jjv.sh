@@ -1,5 +1,5 @@
 ---
-title: "How To Win a Hackathon"
+title: "How To Win Hackathons and Influence Prizes by Andrew Carnegie"
 date: 2020-02-04T14:26:36-04:00
 tags: ["featured"]
 ---

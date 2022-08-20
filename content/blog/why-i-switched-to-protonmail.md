@@ -1,5 +1,5 @@
 ---
-title: "Why I Switched to ProtonMail"
+title: "Why I Switched to ProtonMail (and then to Tutanota a year later, but that's neither here nor there)"
 date: 2017-10-27T15:00:00-04:00
 tags: []
 ---

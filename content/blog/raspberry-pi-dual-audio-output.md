@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi Dual Audio Output"
+title: "Raspberry Pi Dual Audio Output (or: JACK Audio Patchbay, Walmart Version)"
 date: 2020-10-03T03:32:24-04:00
 tags: []
 ---

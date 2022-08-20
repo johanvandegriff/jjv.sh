@@ -1,5 +1,5 @@
 ---
-title: "jjv.sh"
+title: "jjv.sh: my personal URL shortener for all my URL shortening needs"
 date: 2021-08-13T11:27:55-04:00
 tags: []
 ---
@@ -14,3 +14,25 @@ tags: []
   <li><a href="https://jjv.sh/carl">jjv.sh/carl</a> - a chatbot</li>
   <li><a href="https://jjv.sh/resume">jjv.sh/resume</a> - my online resume</li>
 </ul>
+
+<p>How does it work, you ask? It uses <a target="_blank" href="https://caddyserver.com/">caddy</a> with some basic redirect rules:</p>
+<h2>/etc/caddy/Caddyfile</h2>
+<pre>
+jjv.sh, www.jjv.sh {
+    redir / https://johanv.net/jjv.sh/ html
+    redir /about https://johanv.net/about/ html
+    redir /boggle https://games.johanv.net/boggle html
+    redir /charlie https://johanv.net/gallery/charlie/ html
+    redir /resume https://johanv.net/resume/ html
+    redir /carl https://games.johanv.net/carl html
+    redir /site https://johanv.net html
+    redir /music-yt https://www.youtube.com/playlist?list=PL9MPtw9DDuDIJ5uFq6CzSEjeHLLwfEWGx html
+    redir /music https://freemusicarchive.org/music/johan-vandegriff html
+    redir /dressember https://dressember2021.funraise.org/fundraiser/johan-vandegriff html
+    redir /lucy https://johanv.net/gallery/lucy/ html
+    redir /ATinyGame https://johanv.net/ATinyGame/ html
+    redir /art https://johanv.net/gallery/drawings/ html
+    redir /bella https://johanv.net/gallery/bella/ html
+    redir https://johanv.net/jjv.sh/ html
+}
+</pre>

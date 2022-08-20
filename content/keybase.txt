@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/johanvandegriff
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://johanv.net
+  * I am johanvandegriff (https://keybase.io/johanvandegriff) on keybase.
+  * I have a public key with fingerprint F183 8FD4 26A0 0F11 49BF  CBCF 6C2E 542B 8A1A 528E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013d971a3137d807bf1a460c72fbbdb4b5b7666029c57658601b13e299926190850a",
+      "fingerprint": "f1838fd426a00f1149bfcbcf6c2e542b8a1a528e",
+      "host": "keybase.io",
+      "key_id": "6c2e542b8a1a528e",
+      "kid": "01013d971a3137d807bf1a460c72fbbdb4b5b7666029c57658601b13e299926190850a",
+      "uid": "585accdedbf7628728a6766d10222519",
+      "username": "johanvandegriff"
+    },
+    "service": {
+      "hostname": "johanv.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1660985125,
+  "expire_in": 157680000,
+  "prev": "cc8633535364efece94f127d57d4658e4904e43a2a40377e4455c1db2c16464c",
+  "seqno": 73,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBVBGD6WpVlSRpAUPrQQncJsZ3Z3dvdIltCF1CSTIsI47NzOWa3d
+4571noJBBQV2obKyKHwxzIgKu0pYSkWRRVFB4UNFl4cykIwegpqVegh6bOZhmH++
+75vv+/kHMyeGMlKKN2p9QzO2RFMe3DpZEyKhU/ObJOzSBinSJFWx8YNtpSzpR6ts
+KkUkGchAoaYOLAUoOjVkHXNgqUgmOuQYU6xiDesIIRmaRNORZiAZYKAwaJomRMCU
+DU22pFyJ206MeQnPdnwhy4GhGJyqEFmyzAFQTcwJJhwRyDQVYsMClgYNJohxNxkw
+hDlsJVme7YqauETH7f0D/59914zLaYZmEUIZxVxH0NChYSHBpkCGEGrADIBJ5jnW
+NibQlW7ccmoth7KYZ3MuNedK4rHWJizobxDoL2Cew3whkPBc3yXuVlGP+34iGQl4
+fkMiANYxHP0tEcW2Q0UzBaOWeUnbdaQIEEji24EmEJFMQwNQy5VYfcL2WNQOECKj
+IYsV/MNqhSQhBlIUTWykMs4IM1UOoE41naqiHUw1ZZWpigUtVVZ0namqphFAMSQA
+qUglUhCq2nGliK4In1ZMaCbtmGP5NR6Tmm/3V6SGUjJCkydNCKYslDFlxp/ZK+pL
++1m9+jHfd7Xt8roSb3sdfLjtRMuxRy8rh4u/ru258pSOnM7vHHhctwGtRPGm/m9D
+vVno+PyDJXRBY/hs9poboz+wc98415y9a+DIuVm3vy/qb6mcMtj9ZenuJcsvjaaO
+xLuvLS7P74wefdOYwityynL2HL6Z/rFhLHPTxXYe2dtRCp/fm5PcfC+/LX1iWntB
+QU+4qD48N07u9h4qq+I1Q+seXhgeXBB+cnektGtfZ/jT1BcHqstLP4dbYzv69fdd
+W1YtmqZnHXiVw+/0jMjxDz3Fk7t3Diyk5zuenFmBZ84rzGHXC4ta02fXD9cta0t7
+vUvKTt8PxvDbO4PrP69+9m56X+mrXxvVOp4=
+=3GTH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johanvandegriff
+
+==================================================================

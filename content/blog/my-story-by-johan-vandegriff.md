@@ -1,5 +1,5 @@
 ---
-title: "My Story by Johan Vandegriff"
+title: "My Story by Johan Vandegriff (told thru limericks (as if that wasnt obvious))"
 date: 2017-10-06T15:00:00-04:00
 tags: ["featured"]
 ---

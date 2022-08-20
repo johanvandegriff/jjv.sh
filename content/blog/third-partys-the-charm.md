@@ -1,5 +1,5 @@
 ---
-title: "Third Party's the Charm"
+title: "Third Party's the Charm (if only people would listen to logic):"
 date: 2018-01-18T15:00:00-04:00
 tags: []
 ---

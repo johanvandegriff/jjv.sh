@@ -1,5 +1,5 @@
 ---
-title: "The Assembly Instruction that Saved Christmas"
+title: "The Assembly Instruction that Saved Christmas (or: Santa's Helper Function)"
 date: 2021-12-25T06:22:11-04:00
 tags: ["featured"]
 ---

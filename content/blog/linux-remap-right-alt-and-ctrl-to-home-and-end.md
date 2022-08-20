@@ -1,5 +1,5 @@
 ---
-title: "Linux: Remap Right Alt & Ctrl to Home & End"
+title: "Linux: Remap Right Alt & Ctrl to Home & End (or: How to Confuse Anyone Who Borrows Your Laptop)"
 date: 2021-09-26T12:09:11-04:00
 tags: []
 ---

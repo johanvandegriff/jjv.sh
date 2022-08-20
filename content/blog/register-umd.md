@@ -1,5 +1,5 @@
 ---
-title: "How to Register for Classes at UMD"
+title: "How to Register for Classes at UMD (as of fall 2019)"
 date: 2019-11-05T13:33:07-04:00
 tags: []
 ---

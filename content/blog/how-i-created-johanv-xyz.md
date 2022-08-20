@@ -1,5 +1,5 @@
 ---
-title: "How I Created johanv.xyz"
+title: "How I Created johanv.xyz (and subsequently destroyed it)"
 date: 2019-06-08T04:18:50-04:00
 tags: []
 ---
@@ -15,7 +15,7 @@ As I was creating a droplet (that's what DigitalOcean calls their cloud virtual 
 
 As I started to build the site, I was amazed at the awesome features of Dokku. Deploying an app is really easy - just create some files, initialize them as a git repo, and push the repo to Dokku, which takes care of the rest. Each app is on a separate subdomain (e.g. [johanv.xyz](http://johanv.xyz/), [blog.johanv.xyz](http://blog.johanv.xyz/), [games.johanv.xyz](http://games.johanv.xyz/), etc.), and Dokku manages each one, keeping track of the virtual hosts, docker containers, etc. behind the scenes. It even has a Let's Encrypt module to add https with only two commands!
 
-I haven't been this impressed with a software project since I discovered that you can install almost anything in the Arch User Repository (AUR). Oh wait, turns out Dokku is [in the AUR](http://dokku.viewdocs.io/dokku/#install-arch) as well - a match made in heaven! Maybe I'll migrate to an Arch server in the future... or install it on Manjaro locally to easily test web apps.
+I haven't been this impressed with a software project since I discovered that you can install almost anything in the Arch User Repository (AUR). Oh wait, turns out Dokku is [in the AUR](https://aur.archlinux.org/packages/dokku) as well - a match made in heaven! Maybe I'll migrate to an Arch server in the future... or install it on Manjaro locally to easily test web apps.
 
 
 ## The Update

@@ -4,7 +4,7 @@ date: 2019-12-24T06:13:39-04:00
 tags: []
 ---
 
-This is copied from my journal that I kept during Bridge DC in summer 2019. [More info about Bridge DC.](/bridge-dc)
+This is copied from my journal that I kept during Bridge DC in summer 2019. [More info about Bridge DC.](/blog/bridge-dc)
 
 ```
 I thought I heard my name called in the babbling crowd,
