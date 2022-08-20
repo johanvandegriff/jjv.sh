@@ -1,0 +1,115 @@
+---
+title: "Linux Club at UMD | Wiki (Archived)"
+---
+<p><a href="..">Back to main page</a></p>
+<p></p>
+
+<section>
+<h1>Turn Caps Lock into Ctrl</h1>
+<p>Add this line to your <code>~/.profile</code> file and log out and back in:</p>
+<pre><code>setxkbmap -option "shift:both_capslock,caps:ctrl_modifier"</code></pre>
+<p>Caps lock will act as Ctrl, and if you press both Shift keys at the same time, it will toggle caps lock.</p>
+<h2>Bonus: Swap Home/End with Page Up/Down</h2>
+<p>If you have a keyboard with page up/down keys next to your arrow keys but find that you never use them, you can swap them with home and end so it is easier to quickly jump to the beginning and end of a line when editing text.</p>
+<p>Just edit this file with <code>sudo nano /usr/share/X11/xkb/symbols/pc</code> and change the following section:</p>
+<pre><code>    ...
+    key &lt;HOME&gt; {    [  Home         ]   };
+    key &lt;PGUP&gt; {    [  Prior        ]   };
+    key &lt;DELE&gt; {    [  Delete       ]   };
+    key  &lt;END&gt; {    [  End          ]   };
+    key &lt;PGDN&gt; {    [  Next         ]   };
+    ...</code></pre>
+<p>to look like this:</p>
+<pre><code>    ...
+    key &lt;HOME&gt; {    [  Prior        ]   };
+    key &lt;PGUP&gt; {    [  Home         ]   };
+    key &lt;DELE&gt; {    [  Delete       ]   };
+    key  &lt;END&gt; {    [  Next         ]   };
+    key &lt;PGDN&gt; {    [  End          ]   };
+    ...</code></pre>
+<p>Congrats! You have boosted your productivity by 9000%!</p>
+</section>
+
+<section>
+<h1>Reset Linux Password with Live USB and Chroot</h1>
+<p>Create a linux live USB drive.
+Shutdown the computer that you forgot the password to.
+Plug in the live USB and boot up, interrupting the sequence to get to the BIOS.
+Once the live USB boots, mount the computer's drive by opening the file manager and clicking on the drive.
+Right click on the folder where it was mounted and click "open in terminal."
+Run the following command to enter a chroot environment as if you were logged into the computer you forgot the password to:</p>
+<pre><code>chroot .</code></pre>
+<p>In the new environment, change the password of the user you want:</p>
+<pre><code>passwd yourusername</code></pre>
+<p>You can also change the root password:</p>
+<pre><code>passwd</code></pre>
+<p>Then reboot the computer and log in with your new password!</p>
+</section>
+
+<section>
+<h1>Accessing a server with no public IP</h1>
+<h2>Scenario</h2>
+<p>There is a computer that does not have a public IP that I want to make accessible for remote ssh login. This is <em>machine A</em>. I am logging in from a random <em>machine B</em> that could be anywhere in the world. <em>Machine C</em> is a public server that I have access to.</p>
+<h2>Setup the public machine</h2>
+<p>I create a user on <em>machine C</em> called <code>fwd</code>
+Then I add the following line to <code>/etc/ssh/ssh_config</code> on <em>machine C</em>:</p>
+<pre><code>GatewayPorts yes</code></pre>
+<h2>On the machine without a public IP</h2>
+<p>Don't forget to start the ssh server on <em>machine A</em> (may already be running):</p>
+<pre><code>user@machineA:~$ sudo systemctl enable sshd
+user@machineA:~$ sudo systemctl start sshd</code></pre>
+<p>Then I can run this command on <em>machine A</em> to connect it's local ssh port to machine C's port <code>8000</code>:</p>
+<pre><code>user@machineA:~$ ssh -R \*:8000:localhost:22 fwd@machineC</code></pre>
+<h2>Logging in remotely</h2>
+<p>To log in, execute on <em>machine B</em> to log into <em>machine C</em>:</p>
+<pre><code>user@machineB:~$ ssh fwd@machineC</code></pre>
+<p>Then execute on <em>machine C</em> to log in to <em>machine A</em>:</p>
+<pre><code>fwd@machineC:~$ ssh user@localhost -p 8000</code></pre>
+<p>Congratulations! You are now logged in to <em>machine A</em> from <em>machine B</em> anywhere in the world.</p>
+<pre><code>user@machineA:~$ nyancat</code></pre>
+<p>Credit to <a href="https://serverfault.com/questions/88141/ssh-port-forwarding/88148">this serverfault post</a> for the original process.</p>
+</section>
+
+<section>
+<h1>Turning Debian into Kali</h1>
+<p>A brain-dump of the commands I used to convert a debian virtual machine to kali.</p>
+<pre><code>sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list
+sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list.d/qubes-r4.list
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+git clone https://github.com/LionSec/katoolin.git
+sudo cp katoolin/katoolin.py /usr/bin/katoolin
+sudo chmod +x /usr/bin/katoolin
+rm -rf katoolin
+sudo katoolin
+  #select 1, then 1 and 2 (add repos and update)
+  #Ctrl-C to quit katoolin
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+  #need at least 32GB disk space (increase size if in a VM)
+  #https://iamjagjeetubhi.wordpress.com/2017/04/10/fix-unable-to-locate-package-error-in-kali-linux/
+sudo nano /etc/apt/sources.list
+  ADD TO END
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+# For source package access, uncomment the following line
+# deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+deb http://http.kali.org/kali sana main non-free contrib
+deb http://security.kali.org/kali-security sana/updates main contrib non-free
+# For source package access, uncomment the following line
+# deb-src http://http.kali.org/kali sana main non-free contrib
+# deb-src http://security.kali.org/kali-security sana/updates main contrib non-free
+deb http://old.kali.org/kali moto main non-free contrib
+# For source package access, uncomment the following line
+# deb-src http://old.kali.org/kali moto main non-free contrib
+  END ADD
+sudo katoolin
+  select 2 and install everything
+sudo apt autoremove --purge shashlik thunderbird texstudio xzdec perl-tk texlive texlive-latex-base texlive-latex-extra texlive-latex-recommended
+apt autoremove</code></pre>
+</section>
+
+<footer><small><em>This site is hosted on DigitalOcean. If you want to try out DigitalOcean for cloud
+hosting, feel free to use my referral link to help fund this site:
+<a target="_blank" href="https://m.do.co/c/f300a2838d1d">https://m.do.co/c/f300a2838d1d
+</a></em></small></footer>
