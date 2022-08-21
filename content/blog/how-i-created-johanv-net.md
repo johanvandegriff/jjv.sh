@@ -40,9 +40,9 @@ Well, with [caddy](https://caddyserver.com/), it is! Before this, I was using ap
 Caddy also solves the problem of redirecting my old URLs to the new site, and it can even function as a URL shortener using path-based routing.
 
 ## Multistreaming
-My old setup had a system for streaming to multiple sites at once (Owncast, Twitch, YouTube, Odysee, DLive, etc.) by using someone's custom build of nginx to forward RTMP streams to any number of destinations. With the new setup, I wanted to improve on this since that project hasn't been updated in years, which could be a security issue.
+My old setup had a system for streaming to multiple sites at once (Owncast, Twitch, YouTube, Odysee, DLive, etc.) by using someone's custom build of nginx to forward RTMP streams to any number of destinations.
 
-I searched online for "RTMP multiplexing" and found an app called [prism](https://github.com/muesli/prism), and another based on it called [prism+](https://github.com/geekgonecrazy/prismplus), which are coincidentally both made by folks I happen to follow on Mastodon. I decided on prism because it is a simple command I can run locally for now.
+I searched online for "RTMP multiplexing" and found an app called [prism](https://github.com/muesli/prism), and another based on it called [prism+](https://github.com/geekgonecrazy/prismplus), which are coincidentally both made by folks I happen to follow on Mastodon. I decided on prism because it is a simple command I can run locally for now. Update: I tried to stream with prism, and it failed, so I'm back to nginx until I can fix that.
 
 In the future, I want to integrate prism or prism+ into the hugowncast server to provide multistream support out of the box, which is much nicer than having to multiplex from your local computer. To aggregate all the chatrooms, I currently have a service I wrote in nodejs, which I want to rewrite in golang so I can include it as a library in hugowncast.
 
