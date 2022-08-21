@@ -26,9 +26,9 @@ EOF
 
 $ ssh johanv.net
 [rancher@johanv ~]$ docker network create johanvnet
-[rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/owncast-data:/app/data -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build8
+[rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -v ~/owncast-data:/app/data -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build8
 [rancher@johanv ~]$ docker run --name caddy -d --restart unless-stopped --net johanvnet -p 80:80 -p 443:443 -v ~/Caddyfile:/etc/caddy/Caddyfile -v ~/caddy-data:/data caddy
-[rancher@johanv ~]$ docker run --name chat-fwd -d --restart unless-stopped --net johanvnet -v ~/chat-fwd:/srv johanvandegriff/live.johanv.xyz:build1
+[rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/live.johanv.xyz:build1
 [rancher@johanv ~]$ sudo chown rancher:rancher -R ~
 [rancher@johanv ~]$ exit
 
@@ -96,4 +96,11 @@ ssh johanv.net
 sudo mv boggle-mongodb-backup.json games-mongodb/
 docker exec -it games-mongodb mongoimport --db boggle --collection games --file /data/db/boggle-mongodb-backup.json --jsonArray
 sudo rm games-mongodb/boggle-mongodb-backup.json
+```
+
+# File upload service
+```bash
+docker run --name files -d --restart unless-stopped --net johanvnet -v ~/files:/tmp docker.io/svenstaro/miniserve /tmp
+pw=$(echo -n "password" | sha256sum | cut -f 1 -d ' ')
+docker run --name upload -d --restart unless-stopped --net johanvnet -v ~/files:/tmp docker.io/svenstaro/miniserve /tmp -u --auth johanv:sha256:$pw
 ```
