@@ -1,5 +1,6 @@
 ---
 title: "About Me (at least from my perspective)"
+description: "info about Johan Vandegriff written by himself"
 date: 2019-06-10T02:33:57-04:00
 ---
 
