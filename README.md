@@ -12,9 +12,9 @@ $ docker tag hugowncast:build7 johanvandegriff/hugowncast:build7
 $ docker login -u johanvandegriff #paste in key from hub.docker.com
 $ docker push johanvandegriff/hugowncast:build7
 
-$ cd ~/git/johanvandegriff/live.johanv.xyz
-$ docker build . -t johanvandegriff/live.johanv.xyz:build1
-$ docker push johanvandegriff/live.johanv.xyz:build1
+$ cd ~/git/johanvandegriff/multistream
+$ docker build . -t johanvandegriff/multistream:build1
+$ docker push johanvandegriff/multistream:build1
 
 $ cat <<EOF >> ~/.ssh/config
 
@@ -28,7 +28,7 @@ $ ssh johanv.net
 [rancher@johanv ~]$ docker network create johanvnet
 [rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -v ~/owncast-data:/app/data -v ~/owncast-data/index.html:/app/webroot/index.html -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build8
 [rancher@johanv ~]$ docker run --name caddy -d --restart unless-stopped --net johanvnet -p 80:80 -p 443:443 -v ~/Caddyfile:/etc/caddy/Caddyfile -v ~/caddy-data:/data caddy
-[rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/live.johanv.xyz:build1
+[rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/multistream:build1
 [rancher@johanv ~]$ sudo chown rancher:rancher -R ~
 [rancher@johanv ~]$ exit
 
@@ -73,7 +73,7 @@ $ docker start www
 # more stuff
 ```bash
 docker run --name m2m2m -d --restart unless-stopped --net johanvnet johanvandegriff/m2m2m:build1
-docker run --name games -d --restart unless-stopped --net johanvnet -v ~/games:/srv johanvandegriff/games:build6
+docker run --name games -d --restart unless-stopped --net johanvnet -v ~/games:/srv johanvandegriff/games:build7
 docker run --name games-mongodb -d --restart unless-stopped --net johanvnet -v ~/games-mongodb:/data/db mongo
 ```
 
@@ -102,5 +102,5 @@ sudo rm games-mongodb/boggle-mongodb-backup.json
 ```bash
 docker run --name files -d --restart unless-stopped --net johanvnet -v ~/files:/tmp docker.io/svenstaro/miniserve /tmp
 pw=$(echo -n "password" | sha256sum | cut -f 1 -d ' ')
-docker run --name upload -d --restart unless-stopped --net johanvnet -v ~/files:/tmp docker.io/svenstaro/miniserve /tmp -u --auth johanv:sha256:$pw
+docker run --name upload -d --restart unless-stopped --net johanvnet -v ~/files:/tmp docker.io/svenstaro/miniserve /tmp --upload-files --overwrite-files --auth johanv:sha256:$pw
 ```
