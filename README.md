@@ -75,6 +75,7 @@ $ docker start www
 docker run --name m2m2m -d --restart unless-stopped --net johanvnet johanvandegriff/m2m2m:build1
 docker run --name games -d --restart unless-stopped --net johanvnet -v ~/games:/srv johanvandegriff/games:build7
 docker run --name games-mongodb -d --restart unless-stopped --net johanvnet -v ~/games-mongodb:/data/db mongo
+docker run --name asciiradio -d --restart unless-stopped --net johanvnet -p 1337:1337 -p 1338:1338 johanvandegriff/asciiradio:build2
 ```
 
 Caddyfile:
@@ -84,6 +85,9 @@ m2m2m.johanv.net {
 }
 games.johanv.net {
 	reverse_proxy games:5000
+}
+asciiradio.johanv.net {
+	reverse_proxy asciiradio:8080
 }
 ```
 
