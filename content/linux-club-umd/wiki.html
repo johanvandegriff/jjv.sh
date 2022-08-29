@@ -2,15 +2,15 @@
 title: "Linux Club at UMD | Wiki (Archived)"
 description: "some guides to do various different things in Linux"
 ---
-<p><a href="..">Back to main page</a></p>
+<p><a href="..">back to main page</a></p>
 <p></p>
 
 <section>
-<h1>Turn Caps Lock into Ctrl</h1>
+<h2>Turn Caps Lock into Ctrl</h2>
 <p>Add this line to your <code>~/.profile</code> file and log out and back in:</p>
 <pre><code>setxkbmap -option "shift:both_capslock,caps:ctrl_modifier"</code></pre>
 <p>Caps lock will act as Ctrl, and if you press both Shift keys at the same time, it will toggle caps lock.</p>
-<h2>Bonus: Swap Home/End with Page Up/Down</h2>
+<h3>Bonus: Swap Home/End with Page Up/Down</h3>
 <p>If you have a keyboard with page up/down keys next to your arrow keys but find that you never use them, you can swap them with home and end so it is easier to quickly jump to the beginning and end of a line when editing text.</p>
 <p>Just edit this file with <code>sudo nano /usr/share/X11/xkb/symbols/pc</code> and change the following section:</p>
 <pre><code>    ...
@@ -32,7 +32,7 @@ description: "some guides to do various different things in Linux"
 </section>
 
 <section>
-<h1>Reset Linux Password with Live USB and Chroot</h1>
+<h2>Reset Linux Password with Live USB and Chroot</h2>
 <p>Create a linux live USB drive.
 Shutdown the computer that you forgot the password to.
 Plug in the live USB and boot up, interrupting the sequence to get to the BIOS.
@@ -48,20 +48,20 @@ Run the following command to enter a chroot environment as if you were logged in
 </section>
 
 <section>
-<h1>Accessing a server with no public IP</h1>
-<h2>Scenario</h2>
+<h2>Accessing a server with no public IP</h2>
+<h3>Scenario</h3>
 <p>There is a computer that does not have a public IP that I want to make accessible for remote ssh login. This is <em>machine A</em>. I am logging in from a random <em>machine B</em> that could be anywhere in the world. <em>Machine C</em> is a public server that I have access to.</p>
-<h2>Setup the public machine</h2>
+<h3>Setup the public machine</h3>
 <p>I create a user on <em>machine C</em> called <code>fwd</code>
 Then I add the following line to <code>/etc/ssh/ssh_config</code> on <em>machine C</em>:</p>
 <pre><code>GatewayPorts yes</code></pre>
-<h2>On the machine without a public IP</h2>
+<h3>On the machine without a public IP</h3>
 <p>Don't forget to start the ssh server on <em>machine A</em> (may already be running):</p>
 <pre><code>user@machineA:~$ sudo systemctl enable sshd
 user@machineA:~$ sudo systemctl start sshd</code></pre>
 <p>Then I can run this command on <em>machine A</em> to connect it's local ssh port to machine C's port <code>8000</code>:</p>
 <pre><code>user@machineA:~$ ssh -R \*:8000:localhost:22 fwd@machineC</code></pre>
-<h2>Logging in remotely</h2>
+<h3>Logging in remotely</h3>
 <p>To log in, execute on <em>machine B</em> to log into <em>machine C</em>:</p>
 <pre><code>user@machineB:~$ ssh fwd@machineC</code></pre>
 <p>Then execute on <em>machine C</em> to log in to <em>machine A</em>:</p>
@@ -72,7 +72,7 @@ user@machineA:~$ sudo systemctl start sshd</code></pre>
 </section>
 
 <section>
-<h1>Turning Debian into Kali</h1>
+<h2>Turning Debian into Kali</h2>
 <p>A brain-dump of the commands I used to convert a debian virtual machine to kali.</p>
 <pre><code>sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list
 sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list.d/qubes-r4.list

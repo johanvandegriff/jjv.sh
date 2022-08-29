@@ -20,4 +20,4 @@ Ok pause, quick side note. You might be wondering why I'm such a nerd that I get
 
 The clouds parted and BST and BLD shone through! These instructions basically let me copy 1 bit from a variable to any bit of any other variable. Armed with this newfound power, I sliced and diced at the code, finally able to cut with fine-grain accuracy. For example, I could shorten the way pixels are copied from one location on the screen to another. When the dust settled, the byte count was.... 1018! Just under 1024, with 6 bytes to spare. It's a Christmas Miracle™. (Of course then I still had to spend several hours soldering a few copies of the handheld, but that's neither here nor there. Actually it is there. "There" being the soldering station. Or as I call it, Santa's Workshop as a Service (SWaaS).)
 
-And that's the story of the assembly instruction(s) that saved Christmas. More deets about the project [here](/ATinyGame/).
+And that's the story of the assembly instruction(s) that saved Christmas. More info: [ATinyGame project](/ATinyGame/)

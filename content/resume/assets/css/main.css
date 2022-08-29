@@ -73,18 +73,31 @@ pre {
   font-size: 25px;
   margin-right: 7px;
 }
+
+h1.title {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.42857143;
+  font-weight: 900;
+}
+
 .contact {
   background-color: #f8f8f8;
   padding: 5em 0em;
 }
-.contact h1 {
+.contact .title {
   font-size: 25px;
   letter-spacing: 5px;
   margin-top: 0;
   padding-bottom: 30px;
+  font-family: 'Istok Web', sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
 .contact p {
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 

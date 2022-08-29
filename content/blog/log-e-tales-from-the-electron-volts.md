@@ -14,27 +14,27 @@ Coder's Log.e()
 
 An account follows of a myriad of tales recounting the sundry misadventures and swashbuckling excursions as a member of a high (school) society for the construction of automatons and advancement through treacherous tournaments to victory of glory and splendor most dazzling, indeed. My aim is that the narrative shall be as accurate as possible and will serve useful in reference during future events.
 
-### Saturday, October 1, 2016
+## Saturday, October 1, 2016
 
 We were visited by a band of rookies. They do not perceive the insurmountable tasks that lie ahead of them. I attempted to affright them by disclosing to them the monster that is The Code, but alas, they took an interest in this beast. I fear there is no way to warn them; their days ahead appear grim.
 
 The Great Git attacked our code today. I researched its weaknesses in the Archives of Google and found individuals who were in a similar predicament. Armed with this knowledge, we were able to send it howling back from whence it came.
 
-### Sunday, October 2, 2016
+## Sunday, October 2, 2016
 
 I found it necessary today to journey into the desert of robot wiring. There are wires in every direction, extending out into the distant horizon. The shortage of water and software for three hours is starting to affect my sanity.
 
-### Tuesday, October 4, 2016
+## Tuesday, October 4, 2016
 
 The wiring problem has been worsening. Connectors spew forth from every surface of the modules. Fortunately, I have discovered a solution. Unfortunately, the aforementioned solution requires an expedition into the jungle of printed circuit board design. The prospect of water makes the adventure more appealing.
 
 This evening I spent a good while researching a mysterious artifact called the Chunk of Modularity. Legend has it that the Chunk can be constructed by connecting a set of modules in a vertical manner, with one large module running perpendicular to the rest. My first attempt at creating this enigmatic system was incomplete, but after a trip to the Amazon, I will finally have the components I need. The trip is scheduled to depart on the morrow and return within one fourth of a fortnight.
 
-### Wednesday, October 5, 2016
+## Wednesday, October 5, 2016
 
 A portion of my crew sailed across the ocean to visit our backers today. They showed the backers the robots we have built. Whilst they were gone, I deemed it important to reorganize the software. As William once said, “Everything’s going swimmingly.”
 
-### Saturday, October 8, 2016
+## Saturday, October 8, 2016
 
 We are embarking on today’s journey with high hopes and a long trek ahead. The hardware team is scheduled to have some simple mechanisms built by the end of today.
 
@@ -44,15 +44,15 @@ During today’s expedition, the hardware team lagged behind and the rest of us 
 
 There have been more developments on the Chunk of Modularity today. The trip to the Amazon has returned with some of the components. Now we plan to additively manufacture an enclosure for the chunk through the ancient ritual of “3D printing”.
 
-### Sunday, October 9, 2016
+## Sunday, October 9, 2016
 
 The printed circuit board design has been completed and now all that remains is to have it procured.
 
-### Tuesday, October 11, 2016
+## Tuesday, October 11, 2016
 
 I sorted our collection of small engines, perceptive devices, and other curiosities. The rest of the team worked on building components of the robot’s hardware. We requested the printed circuit board to be constructed at the end of today’s gathering.
 
-### Wednesday, October 12, 2016
+## Wednesday, October 12, 2016
 
 I have finally solved the servo inits, an issue that has been plaguing us since last year. They will be a bother to us no longer.
 
@@ -60,39 +60,39 @@ They have bothered their last bother. Their bothersomeness will have lasted the 
 
 Headway is being made on the collector. We performed a test and recorded it with a device that is called a “Cam Ra”.
 
-### Saturday, October 15, 2016
+## Saturday, October 15, 2016
 
 Our shipment from Mr. Andy Mark arrived with the new gearboxes, which we secured to the test bot. Then we contrived a means of activating the beacons during the autonomous mode. Subsequently, a run of tests for the code was in order. The teleoperator mode is in fine condition. The task designation system and the operator option selection require more attention. I have succeeded in creating version one point oh of The Chunk of Modularity. The hardware team has done a quite excellent good job with the prototype collector. It performed very well at collecting particles at a rapid rate of speed.
 
-### Tuesday, October 18, 2016
+## Tuesday, October 18, 2016
 
 Today’s effort was expended in recording the various and sundry functions of the code for other persons to research. The hardware team attempted to position the collector such that the robot shall fit into the standard space required.
 
-### Saturday, October 22, 2016
+## Saturday, October 22, 2016
 
 Disaster strikes!
 
 My latest escapade was to wire the beacons together to be powered from one source. It became apparent that the wall adapter offered a supplementary four volts in addition to the twelve promised on the label. This unfortunate overabundance caused the beacons to become not unlike expensive bricks. I spent the remainder of the day repairing said bricks by replacing the innards with an Arduino device.
 
-### Tuesday, October 25, 2016
+## Tuesday, October 25, 2016
 
 The unfortunate mishap involving the beacons has been mitigated. All the innards have been replaced and revitalized. The surplus meeting time was applied to the hardware efforts. Deadeye Mike lined up some perfect launches with the catapult. Unfortunately, none of them came to fruition.
 
-### Saturday, October 29, 2016
+## Saturday, October 29, 2016
 
 Today I showed to my apprentice Divya the mysterious process by which the code is modified. The hardware team busied themselves by improving the catapult to improve the consistency of their launches.
 
 ------------
 
-### Tuesday, November 1, 2016
+## Tuesday, November 1, 2016
 
 I coupled the line sensor array to the test robot.
 
-### Sunday, November 6, 2016
+## Sunday, November 6, 2016
 
 Divya and I activated the line sensor array. Then we tested the encoder boards and sent in an order for 500 to give to other teams.
 
-### Monday, November 7, 2016
+## Monday, November 7, 2016
 
 Birthday
 
@@ -100,19 +100,19 @@ Set up vuforia to feed frames to opencv
 
 Calibrated the distance sensors
 
-### Tuesday, November 8, 2016
+## Tuesday, November 8, 2016
 
 Wrote beacon color detection
 
-### Saturday, November 12, 2016
+## Saturday, November 12, 2016
 
 Removed the defunct distance sensor and calibrated the other distance sensor
 
-### Monday, November 14, 2016
+## Monday, November 14, 2016
 
 Michael sent a motivational email
 
-### Tuesday, November 15, 2016
+## Tuesday, November 15, 2016
 
 Tested the autonomous
 
@@ -120,11 +120,11 @@ Improved the vision processing
 
 The line sensor broke
 
-### Wednesday, November 16, 2016
+## Wednesday, November 16, 2016
 
 Tested line up — center of mass calculations are wrong
 
-### Saturday, November 19, 2016
+## Saturday, November 19, 2016
 
 Meet the field day:
 
@@ -140,7 +140,7 @@ Fixed center of mass calculations
 
 Fixed line sensor array
 
-### Tuesday, November 22, 2016
+## Tuesday, November 22, 2016
 
 Tested the line up – doesn’t work that well
 
@@ -148,7 +148,7 @@ Wednesday, November 23, 2016
 
 Attached the chunk
 
-### Friday, November 25, 2016
+## Friday, November 25, 2016
 
 Met for 12 hours
 
@@ -156,7 +156,7 @@ Built shooter
 
 William stayed the night and played Dominion
 
-### Saturday, November 26, 2016
+## Saturday, November 26, 2016
 
 Finished shooter
 
@@ -164,7 +164,7 @@ Built collector — has problems
 
 Attached line sensor and phone case
 
-### Thursday, July 20, 2017
+## Thursday, July 20, 2017
 
 It has been quite some time since I last put into writing the various and sundry misadventures that have befallen me as a volt of electrons. I will preface by remarking that much has gone on that I fail to recall during that time. However, some of our exploits are as follows.
 

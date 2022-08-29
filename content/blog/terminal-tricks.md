@@ -1,5 +1,5 @@
 ---
-title: "Terminal Tricks (or: It's tricky to cd around to cd around to cd around its tricky!)"
+title: "Terminal Tricks: Have Fun with the Linux Command Line"
 date: 2019-02-23T15:00:00-04:00
 tags: []
 ---
