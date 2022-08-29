@@ -74,14 +74,29 @@
 {{ partial "ascii-art.html" }}
       </pre>
       <nav id="nav" class="nav">
-        {{- $currentPage := . }}
+        {{- $currentPageURL := .RelPermalink | relLangURL }}
+        {{- $selectedNavItem := "/" -}}
+
+        <!-- https://github.com/gohugoio/hugo/issues/9509 -->
+        {{- $navLengths := slice -}}
         {{- range .Site.Menus.main }}
-          {{- $menu_item_url := .URL | relLangURL }}
-          {{- $page_url:= $currentPage.RelPermalink | relLangURL }}
-          {{/* the menu item links to the current page (with relLangURL) */}}
-          <a target="_self" class="box nav-link {{ if eq $menu_item_url $page_url }}nav-link-selected{{ end }}" href="{{ .URL }}">
-            {{- $text := print .Name | safeHTML -}}
-            {{- $text -}}
+          {{- $navItemURL := .URL | relLangURL }}
+          {{- $navLengths = $navLengths | append (dict "length" (len $navItemURL) "url" $navItemURL) -}}
+        {{- end -}}
+
+        <!-- find the nav item that the current URL starts with
+          makes sure to check the longest possibilities last,
+          so it will end up with the longest one that matched -->
+        {{ range sort $navLengths "length" "asc" }}
+          {{- if hasPrefix $currentPageURL .url -}}
+            {{- $selectedNavItem = .url -}}
+          {{- end -}}
+        {{ end }}
+
+        {{- range .Site.Menus.main }}
+          {{- $navItemURL := .URL | relLangURL }}
+          <a target="_self" class="box nav-link{{ if eq $selectedNavItem $navItemURL }} nav-link-selected{{ end }}" href="{{ .URL }}">
+            {{- print .Name | safeHTML -}}
           </a>
         {{- end -}}
       </nav>
