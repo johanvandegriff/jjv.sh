@@ -26,7 +26,7 @@ EOF
 
 $ ssh johanv.net
 [rancher@johanv ~]$ docker network create johanvnet
-[rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -v ~/owncast-data:/app/data -v ~/owncast-data/index.html:/app/webroot/index.html -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build8
+[rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -v ~/owncast-data:/app/data -v ~/owncast-data/index.html:/app/webroot/index.html -v ~/hugo/static/favicon.ico:/app/webroot/favicon.ico -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build8
 [rancher@johanv ~]$ docker run --name caddy -d --restart unless-stopped --net johanvnet -p 80:80 -p 443:443 -v ~/Caddyfile:/etc/caddy/Caddyfile -v ~/caddy-data:/data caddy
 [rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/multistream:build1
 [rancher@johanv ~]$ sudo chown rancher:rancher -R ~
