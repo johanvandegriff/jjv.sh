@@ -13,6 +13,11 @@ ignoreFiles = ["gallery/.*"]
 [permalinks]
   tags = "/:title/"
 
+[params]
+  description = "Johan Vandegriff's website and livestream, including games, videos, blog, drawings, music, electronics projects, and more."
+  author = "Johan Vandegriff"
+  image = "https://johanv.net/logo"
+
 [menu]
   [[menu.main]]
     name = "home"
