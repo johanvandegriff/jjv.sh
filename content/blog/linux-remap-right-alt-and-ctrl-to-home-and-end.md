@@ -1,5 +1,5 @@
 ---
-title: "Linux: Remap Right Alt & Ctrl to Home & End (or: How to Confuse Anyone Who Borrows Your Laptop)"
+title: "Linux: Remap Right Alt & Ctrl to Home & End (and Caps to Ctrl)"
 date: 2021-09-26T12:09:11-04:00
 tags: []
 ---
@@ -8,6 +8,28 @@ I recently got a [framework laptop](https://frame.work/) and I have been customi
 
 ![keyboard with remapped keys labelled](/blog/images/framework-keyboard-remap.png)
 
+## Update 2022-09-23
+There's now a [tool](https://www.howett.net/posts/2021-12-framework-ec/#using-fw-ectool) to remap keys in the framework laptop's firmware
+
+Installing on arch-based linux systems:
+```bash
+yay -S fw-ectool-git
+```
+
+To remap the keys
+```bash
+sudo ectool raw 0x3E0C d1,d1,b0,b3,w6C #RAlt -> Home
+sudo ectool raw 0x3E0C d1,d1,b0,bc,w69 #RCtrl -> End
+sudo ectool raw 0x3E0C d1,d1,b4,b4,w14 #Caps Lock -> Ctrl
+```
+
+To put Caps Lock back to it's original state:
+```bash
+sudo ectool raw 0x3E0C d1,d1,b4,b4,w58 #Caps Lock -> back to Caps Lock
+```
+
+## The Old Way
+Note: this only works on X11, not Wayland.
 
 Create a file in your home folder called ".Xmodmap"
 `nano ~/.Xmodmap`
