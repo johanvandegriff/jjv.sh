@@ -5,20 +5,20 @@ date: 2021-08-13T11:27:55-04:00
 tags: []
 ---
 
-<p>jjv.sh is my personal URL shortener. It stands for <u>J</u>ohan <u>J</u>. <u>V</u>andegriff's <u>sh</u>ort links. Here are some example short links:</p>
+jjv.sh is my personal URL shortener. It stands for <u>J</u>ohan <u>J</u>. <u>V</u>andegriff's <u>sh</u>ort links. Here are some example short links:
 
-<ul>
-  <li><a href="https://jjv.sh/music">jjv.sh/music</a> - all the music me and my brother have made</li>
-  <li><a href="https://jjv.sh/boggle">jjv.sh/boggle</a> - play my boggle game online with friends</li>
-  <li><a href="https://jjv.sh/about">jjv.sh/about</a> - a bit about me</li>
-  <li><a href="https://jjv.sh/charlie">jjv.sh/charlie</a> - pictures of the cute doggo</li>
-  <li><a href="https://jjv.sh/carl">jjv.sh/carl</a> - a chatbot</li>
-  <li><a href="https://jjv.sh/resume">jjv.sh/resume</a> - my online resume</li>
-</ul>
+ * [jjv.sh/music](https://jjv.sh/music) - all the music me and my brother have made
+ * [jjv.sh/boggle](https://jjv.sh/boggle) - play my boggle game online with friends
+ * [jjv.sh/about](https://jjv.sh/about) - a bit about me
+ * [jjv.sh/lucy](https://jjv.sh/lucy) - pictures of the cute doggo
+ * [jjv.sh/charlie](https://jjv.sh/charlie) - pictures of another cute doggo
+ * [jjv.sh/carl](https://jjv.sh/carl) - a chatbot
+ * [jjv.sh/resume](https://jjv.sh/resume) - my online resume
 
-<p>How does it work, you ask? It uses <a target="_blank" href="https://caddyserver.com/">caddy</a> with some basic redirect rules:</p>
-<h2>/etc/caddy/Caddyfile</h2>
-<pre>
+How does it work, you ask? It uses [caddy](https://caddyserver.com/) with some basic redirect rules:
+
+## /etc/caddy/Caddyfile
+```
 jjv.sh, www.jjv.sh {
     redir / https://johanv.net/jjv.sh/ html
     redir /about https://johanv.net/about/ html
@@ -36,4 +36,4 @@ jjv.sh, www.jjv.sh {
     redir /bella https://johanv.net/gallery/bella/ html
     redir https://johanv.net/jjv.sh/ html
 }
-</pre>
+```

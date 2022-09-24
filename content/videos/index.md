@@ -5,21 +5,19 @@ image: "https://johanv.net/gallery/umd/images/VideosThumb.jpg"
 date: 2021-06-13T23:01:08-04:00
 ---
 
-<p>Here are some of my videos! Since YouTube is very invasive of privacy and tends to censor people, I instead upload my videos to
-<a target="_blank" href="https://odysee.com/@johanv:5">Odysee</a> (also known as LBRY), an awesome video platform that more and more YouTubers are moving to.
+Here are some of my videos! Since YouTube is very invasive of privacy and tends to censor people, I instead upload my videos to
+[Odysee](https://odysee.com/@johanv:5) (also known as LBRY), an awesome video platform that more and more YouTubers are moving to.
 Odysee is open source, decentralized, privacy-respecting, has a decent and growing user base, and even has a good system for monetization.
 It doesn't require a minimum subscriber count like YouTube does, which means I'm making money already! (Only a few dollars, my channel isn't that popular.)
-If you sign up with my <a target="_blank" href="https://odysee.com/$/invite/@johanv:5">invite link</a>, we both get some LBC (Odysee/LBRY's cryptocurrency)
+If you sign up with my [invite link](https://odysee.com/$/invite/@johanv:5), we both get some LBC (Odysee/LBRY's cryptocurrency)
 as a referral bonus which you can use to boost a video's popularity, tip somebody, or convert to USD or your local currency.
-I believe that Odysee is the most likely platform to compete with YouTube in the long term, if not overtake it.</p>
+I believe that Odysee is the most likely platform to compete with YouTube in the long term, if not overtake it.
 
-<p>I don't post as frequently on other platforms, but you can also find some of my videos on
-<a target="_blank" href="https://diode.zone/c/johanv/videos">PeerTube</a>
-(another open source decentralized video platform) or
-<a target="_blank" href="https://www.youtube.com/user/jjvantheman">YouTube</a>.
-</p>
+I don't post as frequently on other platforms, but you can also find some of my videos on
+[PeerTube](https://diode.zone/c/johanv/videos) (another open source decentralized video platform) or
+[YouTube](https://www.youtube.com/user/jjvantheman).
 
-<p><a target="_blank" href="https://odysee.com/@johanv:5"><img src="odysee_white.png" alt="odysee logo" style="width: 15%; border: 2px solid blue; border-radius: 10px; padding: 5px; background-color: #16091B"><br/>My Odysee Channel: @johanv</a></p>
+<a target="_blank" href="https://odysee.com/@johanv:5"><img src="odysee_white.png" alt="odysee logo" style="width: 15%; border: 2px solid blue; border-radius: 10px; padding: 5px; background-color: #16091B"><br/>My Odysee Channel: @johanv</a>
 
 <iframe width="560" height="315" src="https://odysee.com/$/embed/normal-day-until/33282078d18db3527c83b2f0a4b48fb5a711024c" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://odysee.com/$/embed/LoadingScreenForChaos/2ea82cbb8fc081fce0caed51025e96412e3cfe2e?r=B5mNA4D3UKsmMGnxn2DEk9VjvkDgR5eR" allowfullscreen></iframe>
