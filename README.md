@@ -7,10 +7,9 @@ For more info on the process and reasoning behind it, see [this blog post](https
 
 ```bash
 $ cd ~/git/johanvandegriff/hugowncast/
-$ docker build . -t hugowncast:build7
-$ docker tag hugowncast:build7 johanvandegriff/hugowncast:build7
+$ docker build . -t johanvandegriff/hugowncast:build1
 $ docker login -u johanvandegriff #paste in key from hub.docker.com
-$ docker push johanvandegriff/hugowncast:build7
+$ docker push johanvandegriff/hugowncast:build1
 
 $ cd ~/git/johanvandegriff/multistream
 $ docker build . -t johanvandegriff/multistream:build1
@@ -28,7 +27,7 @@ $ ssh johanv.net
 [rancher@johanv ~]$ docker network create johanvnet
 [rancher@johanv ~]$ docker run --name www -d --restart unless-stopped --net johanvnet -v ~/owncast-data:/app/data -v ~/hugo:/app/hugo -it johanvandegriff/hugowncast:build11
 [rancher@johanv ~]$ docker run --name caddy -d --restart unless-stopped --net johanvnet -p 80:80 -p 443:443 -v ~/Caddyfile:/etc/caddy/Caddyfile -v ~/caddy-data:/data caddy
-[rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/multistream:build1
+[rancher@johanv ~]$ docker run --name rtmp -d --restart unless-stopped --net johanvnet -p 1935:1935 -v ~/rtmp:/srv johanvandegriff/multistream:build2
 [rancher@johanv ~]$ sudo chown rancher:rancher -R ~
 [rancher@johanv ~]$ exit
 
