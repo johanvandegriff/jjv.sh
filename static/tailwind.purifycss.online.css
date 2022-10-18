@@ -18,3 +18,7 @@
 .tracking-wider {letter-spacing: .05em}
 .text-xl {font-size: 1.25rem}
 .font-thin {font-weight: 200}
+
+.appearance-none{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}
+.ml-8 {margin-left: 2rem;}
