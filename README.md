@@ -39,11 +39,34 @@ $ cd ~/sshfs/johanv.net/hugo
 $ hugo new blog/post4.md
 $ nano content/blog/post4.md
 
-$ cd ~/sshfs/johanv.net/chat-fwd
-$ nano secret-dlive.env secret-nginx.conf secret-owncast.env secret-twitch.env secret-youtube.env
-#or copy them from the old site
-#make sure secret-nginx.conf is empty, because we are not using this for rtmp, just chat fwd
-$ ssh johanv.net docker restart chat-fwd
+$ cd ~/sshfs/johanv.net/rtmp
+#create config files, or copy them from the old site (stream keys and secrets redacted)
+$ cat <<EOF > secret-nginx.conf
+allow publish 172.20.0.1;
+push rtmp://www:1935/live/redacted;
+push rtmp://live.twitch.tv/app/live_redacted;
+push rtmp://a.rtmp.youtube.com/live2/redacted;
+push rtmp://stream.dlive.tv/live/redacted_jjvantheman;
+push rtmp://stream.odysee.com/live/redacted;
+EOF
+$ cat <<EOF > secret-owncast.conf
+OWNCAST_URL=http://www:8080
+OWNCAST_WS=ws://www:8080
+EOF
+$ cat <<EOF > secret-twitch.conf
+TWITCH_BOT_USERNAME=jjvantheman
+TWITCH_BOT_OAUTH_TOKEN=redacted
+TWITCH_BOT_CHANNEL=jjvantheman
+EOF
+$ cat <<EOF > secret-youtube.conf
+YOUTUBE_CHANNEL_ID=UCmrLaVZneWG3kJyPqp-RFJQ
+YOUTUBE_API_KEY=redacted
+EOF
+$ cat <<EOF > secret-dlive.conf
+DLIVE_BOT_SECRET=redacted
+DLIVE_BOT_CHANNEL=jjvantheman
+EOF
+$ ssh johanv.net docker restart rtmp
 
 $ cd ~/sshfs/johanv.net
 $ cat <<EOF >> Caddyfile
@@ -52,6 +75,7 @@ $ cat <<EOF >> Caddyfile
 }
 
 johanv.net {
+        encode gzip
         reverse_proxy www:8080
 }
 
@@ -60,7 +84,8 @@ www.johanv.net {
 }
 
 rtmp.johanv.net {
-        reverse_proxy chat-fwd:8080
+        encode gzip
+        reverse_proxy rtmp:8080
 }
 EOF
 $ ssh johanv.net docker restart caddy
@@ -80,12 +105,15 @@ docker run --name asciiradio -d --restart unless-stopped --net johanvnet -p 1337
 Caddyfile:
 ```
 m2m2m.johanv.net {
+        encode gzip
 	reverse_proxy m2m2m:80
 }
 games.johanv.net {
+        encode gzip
 	reverse_proxy games:5000
 }
 asciiradio.johanv.net {
+        encode gzip
 	reverse_proxy asciiradio:8080
 }
 ```
