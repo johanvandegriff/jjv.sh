@@ -44,7 +44,7 @@ I use tiling window management (currently pop shell, but bismuth and i3 before t
 I buy computer monitors from the thrift store for $10-$30 each and use them for desktop computers for me and my family/friends.
 I am lucky enough to never have had a Facebook. Right when I was thinking I might cave and get one, the privacy revelations came out, and I decided to never sign up. I'm super glad, since they can be a pain to delete.
 The first programming language I learned was Bash, from a book my Dad gave me called <a target="_blank" href="https://www.goodreads.com/book/show/293206.UNIX_Shell_Programming">UNIX Shell Programming Revised Edition</a>. The book was released in 1989 and I read it around 2009. I remember being fascinated by the fact that you could create a phonebook program to store all your contacts using files, and display them with cool ASCII art formatting. I still have <a target="_blank" href="https://git.sr.ht/~johanvandegriff/unix-shell-programming-revised-edition-programs">the old programs I wrote</a>.
-My favorite programming languages in order are Python, Bash, Java, and C. One of my least favorites is PHP, although I did use it to make this site... (update: the site has been migrated away from PHP :)
+My favorite programming languages in order are Python, Bash, Java, and C. One of my least favorites is PHP, although I did use it to make this site... (update: the site has been <a target="_blank" href="https://johanv.net/blog/how-i-created-johanv-net/">migrated</a> away from PHP :)
 I just started playing chess more seriously (on <a target="_blank" href="https://lichess.org/@/jjvan">lichess</a>) and I'm still terrible at it.
 I learned the basics of how to salsa dance.
 I created a streaming service called <a target="_blank" href="https://asciiradio.johanv.net">asciiradio</a> for text and audio only, so I could stream from mobile data.
@@ -55,3 +55,4 @@ I use <a target="_blank" href="https://sonic-pi.net/">Sonic-Pi</a> to make music
 In 2021 there was a <a target="_blank" href="https://github.com/johanvandegriff?tab=overview&from=2021-05-01&to=2021-05-31">gap in my github commits</a>, which suspiciously correlated to the months where I was the most unhappy and isolated during the pandemic. :[
 I'm tired right now.
 I can control my lights from my phone... with a janky servo attached to the light switch powered by a Raspberry Pi Zero.
+I joined Mastodon before it was cool (2017).
