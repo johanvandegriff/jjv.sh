@@ -75,13 +75,16 @@
       </pre>
       <nav id="nav" class="nav">
         {{- $currentPageURL := .RelPermalink | relLangURL }}
-        {{- $selectedNavItem := "/" -}}
+        {{- $selectedNavItem := $currentPageURL -}}
 
-        <!-- https://github.com/gohugoio/hugo/issues/9509 -->
+        <!-- https://github.com/gohugoio/hugo/issues/9509
+          find the most specific nav item the url falls under, other than / -->
         {{- $navLengths := slice -}}
         {{- range .Site.Menus.main }}
           {{- $navItemURL := .URL | relLangURL }}
-          {{- $navLengths = $navLengths | append (dict "length" (len $navItemURL) "url" $navItemURL) -}}
+          {{- if ne $navItemURL "/" -}}
+            {{- $navLengths = $navLengths | append (dict "length" (len $navItemURL) "url" $navItemURL) -}}
+          {{- end -}}
         {{- end -}}
 
         <!-- find the nav item that the current URL starts with

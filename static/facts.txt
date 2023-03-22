@@ -1,6 +1,7 @@
 I have a random fact generator on my website.
 These fun facts are stored in johanv.net/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
 I enjoy playing piano! I was classically trained and now I just play and compose for fun. I can't read sheet music in real time so I play mostly by ear. I have released an <a target="_blank" href="https://odysee.com/@johanv:5/internal-travels:d">album with my piano music</a>, complete with a drawing for each song.
+One time I was playing piano in a hotel lobby when someone asked me to play for him and his girlfriend, and then he proposed to her!
 My favorite movie is The Incredibles.
 My favorite color is <span style="color: blue">blue</span>. No, <span style="color: orange">orange</span>! No, <span style="color: purple">purple</span>! I'm indecisive...
 Within the span of May-June 2019, my phone, laptop, and tablet all broke. I switched to a flip phone and a crappy laptop for about a year until I was able to get a better laptop and a <a target="_blank" href="https://www.pine64.org/pinephone/">PinePhone</a>.
