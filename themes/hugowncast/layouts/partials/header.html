@@ -68,6 +68,30 @@
       ul {list-style-type: disc; margin: 0px; padding: revert;}
 
       .box pre {overflow-x: auto; background-color: #111; color: white; padding: 10px; border-radius: 10px; margin: 3px}
+
+      @media (prefers-color-scheme: dark) {
+        .box {
+          background-color: #181a1b;
+        }
+        .box span, .box ul, .box img, .box p, .box time {
+          color: #e8e6e3;
+        }
+        .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+          color: #c3beb6;
+          /* color: #e8e6e3; */
+        }
+        body#app-body > section p {
+          color: #e8e6e3;
+        }
+        body, #app-body {
+          background-color: #242729;
+        }
+        .nav-link-selected {background-color: rgba(90,103,216,1); color: white}
+
+        h1, h2, h3, h4, h5, h6 {
+          color: #e8e6e3;
+        }
+      }
     </style>
     <div id="nav-border">
       <pre class="ascii-art">
