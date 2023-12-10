@@ -4,7 +4,7 @@ date: 2017-10-06T15:00:00-04:00
 tags: ["featured"]
 ---
 
-![FTC Team 7393 Robot](/blog/images/Log.e_robot.jpg)
+![FTC Team 7393 Robot](/blog/images/Log_e_robot.jpg)
 
 (This is a robotics team meeting log for the [electron Volts team](https://ftc7393.org/)'s 2016-2017 season.)
 

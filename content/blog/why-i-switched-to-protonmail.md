@@ -24,7 +24,7 @@ The last few services that will be hard or impossible to switch away from are Go
 
 UPDATE: A great alternative for Google Maps is [OpenStreetMap](https://www.openstreetmap.org/), which has an [app for Android](https://play.google.com/store/apps/details?id=net.osmand) and a [custom website for iOS](https://opentouchmap.org/).
 
-That’s all folks; thanks for reading. I’ll leave you with this limerick taken from my [last post](/blog/my-story-by-johan-vandegriff/):
+That’s all folks; thanks for reading. I’ll leave you with this limerick taken from my [last post](/blog/my-story-by-johan-vandegriff):
 
 Johan’s become opposed to Google,
 The Internet kit and caboodle.

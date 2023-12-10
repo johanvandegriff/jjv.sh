@@ -149,11 +149,11 @@ Fill in the fields as follows, replacing “johanv” with your username, then c
 
 ![Step 3](/blog/images/linux-desktops/ubuntu-keyboard-3.png)
 
-Download [this sound](/blog/images/linux-desktops/Airhorn.ogg) effect and put it in your home directory.
+Download [this sound](/blog/files/Airhorn.ogg) effect and put it in your home directory.
 
 ![Step 4](/blog/images/linux-desktops/ubuntu-keyboard-4.png)
 
-Press Shift-F1 and enjoy! You can add more sounds to the other Shift-F<1-12> keys using the same process. [Here is a link](/blog/images/linux-desktops/KeyboardShortcuts.zip) to all the sound effects I added.
+Press Shift-F1 and enjoy! You can add more sounds to the other Shift-F<1-12> keys using the same process. [Here is a link](/blog/files/KeyboardShortcuts.zip) to all the sound effects I added.
 
 ## Conclusion
 Thanks for reading (or skipping) all the way to the end! This has been my perspective on the world of Linux. Whether you find Linux appealing, appalling, or somewhere in between, I hope you got something useful out of this article. The appendix has some useful articles on learning more about Linux if you are interested. You can also leave a comment if you have any questions, suggestions, or… well… comments!

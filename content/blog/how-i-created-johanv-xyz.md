@@ -5,7 +5,7 @@ tags: []
 ---
 
 ## Update 2022-08-05
-I have since moved to [johanv.net](https://johanv.net), read about it [here](https://johanv.net/blog/how-i-created-johanv-net/). Keep reading if you want, but most of the links in this article are old.
+I have since moved to [johanv.net](https://johanv.net), read about it [here](/blog/how-i-created-johanv-net). Keep reading if you want, but most of the links in this article are old.
 
 ## The Backstory
 
