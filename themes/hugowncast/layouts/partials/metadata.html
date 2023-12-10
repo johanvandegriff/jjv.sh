@@ -4,9 +4,9 @@
 <!-- {{- if .Lastmod }}
     [updated {{ partial "date.html" .Lastmod -}}]
 {{- end -}} -->
-{{- if gt (len (.GetTerms "tags")) 0 -}}
+{{ if gt (len (.GetTerms "tags")) 0 -}}
     🏷
     {{- range (.GetTerms "tags") -}}
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    {{- end -}}
+    {{ end -}}
 {{- end -}}
