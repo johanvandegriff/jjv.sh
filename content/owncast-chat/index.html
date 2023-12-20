@@ -962,6 +962,8 @@ button.emoji-picker__category-button.active {
 const OWNCAST_URL = "https://johanv.net";
 const OWNCAST_WS = "wss://johanv.net";
 
+show_message({user: {displayName: "user", displayColor: 266}, body: "test"})
+
 function show_message(message) {
 /*
 {"body":"test11","id":"dYj8uMdSR","timestamp":"2023-12-19T22:35:32.906683883Z","type":"CHAT","user":{"id":"4OWBUMdSg","displayName":"wizardly-shockley","displayColor":266,"createdAt":"2023-12-19T21:40:29.127078135Z","previousNames":["wizardly-shockley"],"nameChangedAt":"0001-01-01T00:00:00Z","isBot":false,"authenticated":false},"visible":true}
@@ -970,17 +972,20 @@ function show_message(message) {
 */
     //TODO timestamp
 
+    //if (message.type === 'SYSTEM') return;
+
     const name = message.user.displayName;
     const text = message.body;
     const color = message.user.displayColor;
     let color1 = `hsla(${color}, 50%, 50%, var(--message-background-alpha))`;
-    let color2 = `hsla(${color}, 100%, 100%, 0.85)`;
+    let color2 = `hsla(${color}, 100%, 60%, 0.85)`;
     if (color === undefined) {
         color1 = 'rgb(102, 126, 234)';
         color2 = 'rgb(255, 255, 255)';
     }
     const messages = document.querySelector('#messages-container');
-    messages.innerHTML += `<div style="background-color: ${color1};" class="message relative flex flex-row items-start p-3 m-3 rounded-lg shadow-s text-sm " title="Sent at 4:22:15 PM"><div class="message-content break-words w-full"><div style="color: ${color2};" class="message-author font-bold" title="awesome-lovelace first joined 4:22:10 PM">  ${name}</div><div class="message-text text-gray-300 font-normal overflow-y-hidden pt-2">${text}</div></div></div>`;
+    messages.innerHTML += `<div style="padding: 2px 10px;"><span style="color: ${color2}; font-weight: bold;"><span>${name}</span></span><span style="color: white">: </span><span><span><span style="color: white">${text}</span></span></span></div>`
+    //messages.innerHTML += `<div style="background-color: ${color1};" class="message relative flex flex-row items-start p-3 m-3 rounded-lg shadow-s text-sm " title="Sent at 4:22:15 PM"><div class="message-content break-words w-full"><div style="color: ${color2};" class="message-author font-bold" title="awesome-lovelace first joined 4:22:10 PM">  ${name}</div><div class="message-text text-gray-300 font-normal overflow-y-hidden pt-2">${text}</div></div></div>`;
     messages.scrollTo(0, messages.scrollHeight);
 }
 
