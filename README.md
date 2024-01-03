@@ -46,7 +46,7 @@ allow publish 172.20.0.1;
 push rtmp://www:1935/live/redacted;
 push rtmp://live.twitch.tv/app/live_redacted;
 push rtmp://a.rtmp.youtube.com/live2/redacted;
-push rtmp://stream.dlive.tv/live/redacted_jjvantheman;
+push rtmp://stream.dlive.tv/live/redacted_jjvanvan;
 push rtmp://stream.odysee.com/live/redacted;
 EOF
 $ cat <<EOF > secret-owncast.conf
@@ -54,9 +54,9 @@ OWNCAST_URL=http://www:8080
 OWNCAST_WS=ws://www:8080
 EOF
 $ cat <<EOF > secret-twitch.conf
-TWITCH_BOT_USERNAME=jjvantheman
+TWITCH_BOT_USERNAME=jjvanvan
 TWITCH_BOT_OAUTH_TOKEN=redacted
-TWITCH_BOT_CHANNEL=jjvantheman
+TWITCH_BOT_CHANNEL=jjvanvan
 EOF
 $ cat <<EOF > secret-youtube.conf
 YOUTUBE_CHANNEL_ID=UCmrLaVZneWG3kJyPqp-RFJQ
@@ -64,7 +64,7 @@ YOUTUBE_API_KEY=redacted
 EOF
 $ cat <<EOF > secret-dlive.conf
 DLIVE_BOT_SECRET=redacted
-DLIVE_BOT_CHANNEL=jjvantheman
+DLIVE_BOT_CHANNEL=jjvanvan
 EOF
 $ ssh johanv.net docker restart rtmp
 
