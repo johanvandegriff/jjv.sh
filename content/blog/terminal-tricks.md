@@ -27,6 +27,7 @@ python -m http.server
 Visit the web server at http://localhost:8000/ in your browser. Press Ctrl-C in the terminal to stop the server.
 
 ![python -m SimpleHTTPServer](/blog/images/python-simplehttpserver.png)
+
 A web server with one command! It can also be accessed by anyone on the same local network (house, school, library, etc.)
  
 
@@ -47,6 +48,7 @@ Change the terminal to attack mode!
 xtermcontrol –bg ‘#111111’; xtermcontrol –fg ‘#ff0000’
 ```
 ![Terminal with Red Text](/blog/images/pip-attack-mode.png)
+
 Installing a python package in attack mode!
 
 

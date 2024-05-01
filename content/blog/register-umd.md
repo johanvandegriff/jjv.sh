@@ -26,6 +26,7 @@ https://planetterp.com
 *Useful for:* Deciding which classes to take so that you don't end up with all you classes having a hard grade distribution, deciding which professor to take for a given class (although you should confirm with people in higher years in your major just to make sure).
 *Tips & Tricks:* There is a "View on Testudo" button which sends you to the Testudo Schedule of Classes (described above). This is useful for finding which sections are open once you find a class on PlanetTerp.
 ![PlanetTerp](/blog/images/umd-class-reg/PlanetTerp.png)
+
 Side note: I would definitely recommend HONR218T as a good GenEd -- you get to go to DC and see some plays!
 
 ### RateMyProfessors
@@ -83,6 +84,7 @@ https://app.testudo.umd.edu/main/dropAdd
 *Useful for:* Trying out different 4-year plans, making sure you'll complete all the right GenEds, 
 *Tips & Tricks:* The organization scheme I use is a set of columns (class, credits, requirements, etc.) for each semester, with 1 row for each class. Here's a screenshot:
 ![Plain Old Spreadsheet](/blog/images/umd-class-reg/4YearPlanLibreOffice.png)
+
 Note that I have color-coded some items blue to note that I have a future class planned to fulfill that GenEd. For example, some of the later Gemstone classes will fulfill several GenEd requirements. Make sure you don't register for extra GenEds that will be completed later!
 
 That was a lot of info! I hope you took the time to read through it and found it useful. If you have any questions, or suggestions on something to add to this post, feel free to [contact me](/contact/). Good luck registering!

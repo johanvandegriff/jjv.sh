@@ -1,0 +1,2 @@
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ if not .Title }}title="{{ htmlUnescape .Text }}"{{ else }}title="{{ .Title }}"{{ end }} />
+<h3 style="font-size: small; text-align: center;">{{ htmlUnescape .Text }}</h3>

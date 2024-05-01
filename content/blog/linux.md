@@ -33,37 +33,14 @@ There are hundreds of Linux distros to choose from, dozens of which with a signi
 
 These are all Linux desktop environments, each with a different layout and workflow suited for different tasks and types of people:
 
-![GNOME](/blog/images/linux-desktops/gnome.jpg)
-GNOME – unique setup with a sidebar, and “activities” at the top-left corner
- 
-
-![Pantheon](/blog/images/linux-desktops/elementary.png)
-Pantheon on ElementaryOS with Leos 7  icon pack – made to look like MacOS
- 
-
-![Budgie](/blog/images/linux-desktops/solus-budgie.jpg)
-Budgie on Solus Linux – clean and simple start-menu style interface
- 
-
-![XFCE](/blog/images/linux-desktops/xfce.png)
-XFCE – lightweight, this particular setup has the menu on the top
- 
-
-![MATE](/blog/images/linux-desktops/fedora-mate.png)
-MATE on Fedora – fork of GNOME 2, menus on top and bottom in this setup
- 
-
-![Cinnamon](/blog/images/linux-desktops/mint-cinnamon.png)
-Cinnamon on Linux Mint – fork of GNOME, start-menu based (I use this one)
- 
-
-![i3](/blog/images/linux-desktops/i3.png)
-i3 tiling window manager – for real hackers (my friend uses this one)
- 
-
-![Settings](/blog/images/linux-desktops/mint-cinnamon-settings.png)
-Linux Mint Cinnamon Settings
-
+![GNOME – unique setup with a sidebar, and “activities” at the top-left corner (I use this one)](/blog/images/linux-desktops/gnome.jpg)
+![Pantheon on ElementaryOS with Leos 7  icon pack – made to look like MacOS](/blog/images/linux-desktops/elementary.png)
+![Budgie on Solus Linux – clean and simple start-menu style interface](/blog/images/linux-desktops/solus-budgie.jpg)
+![XFCE – lightweight, this particular setup has the menu on the top](/blog/images/linux-desktops/xfce.png)
+![MATE on Fedora – fork of GNOME 2, menus on top and bottom in this setup](/blog/images/linux-desktops/fedora-mate.png)
+![Cinnamon on Linux Mint – fork of GNOME, start-menu based (my mom uses this one)](/blog/images/linux-desktops/mint-cinnamon.png)
+![i3 tiling window manager – for real hackers (my friend uses this one)](/blog/images/linux-desktops/i3.png)
+![Linux Mint Cinnamon Settings](/blog/images/linux-desktops/mint-cinnamon-settings.png)
 
 Within each desktop environment, you can change the position of the menu(s), the theme, the position of buttons on the windows, and much more. Some desktop environments even have extensions that people can write, such as an extension I downloaded to make windows become transparent when being dragged so I can see the window underneath.
 
@@ -73,8 +50,7 @@ I have set up many keyboard shortcuts, ranging from silly sound effects played w
 You can [boot Linux from a USB drive](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows)! This is very useful for a variety of tasks. You can troubleshoot computers that won’t boot by booting from the USB drive and running diagnostics. You can remove passwords from Windows computers using a utility. You can retrieve files from any computer you forgot the password to (as long as it is not encrypted). If you accidentally formatted (erased) a hard drive, you may be able to recover it with a bootable Linux USB. It is also great for working with storage devices in general since Linux is compatible with all major file systems, and has some great easy-to-use tools for partitioning. I have put together a USB drive with multiple distros on it with software called [MultiBootUSB](http://multibootusb.org/).
 
 ### Terminal Stuff
-![Nethack](/blog/images/linux-desktops/nethack.gif)
-Nethack, a game that runs in the terminal
+![Nethack, a game that runs in the terminal](/blog/images/linux-desktops/nethack.gif)
 
 A terminal is an application that allows the user to type commands to interact with the system if different ways. Linux comes with a very diverse and useful set of terminal commands for just about anything. Basically, the terminal acts as the glue for the system, giving access to all utilities, and allowing you to write scripts that automate tasks like backup of files, changing desktop backgrounds and themes, or installing apps on a new system. One of my favorite scripts lets me swap between the default skin of Linux Mint and a [Windows XP theme](https://github.com/petrucci4prez/CinnXP) that someone made for Linux Mint!
 
@@ -131,8 +107,7 @@ bb
 hollywood (press Ctrl-C twice, then Ctrl-D to quit)
 ```
 
-![Mystery Command](/blog/images/linux-desktops/fortune-pirate-rev-cowsay-lolcat.png)
-extra bonus nachos if you can guess what command created this
+![Mystery Command - extra bonus nachos if you can guess what command created this](/blog/images/linux-desktops/fortune-pirate-rev-cowsay-lolcat.png)
 
 See the appendix for the links where I found these cool commands.
 

@@ -1,5 +1,5 @@
 ---
-title: "Contact Me (or at least try your best to)"
+title: "Contact Me (I may even respond)"
 description: "Johan Vandegriff's contact info and ways to contact him securely with Tutanota, Protonmail, or Element"
 ---
 
