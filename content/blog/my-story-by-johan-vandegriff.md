@@ -1,7 +1,7 @@
 ---
-title: "My Story by Johan Vandegriff (told through limericks (as if that wasn't obvious))"
+title: "My Story by Johan Vandegriff (told through limericks)"
 date: 2017-10-06T15:00:00-04:00
-tags: ["featured"]
+tags: ["featured", "poetry"]
 ---
 
 Here are some limericks that I wrote for an assignment to tell my story.

@@ -1,7 +1,7 @@
 ---
 title: "Identity Reflection (a Poem I Wrote at Bridge DC)"
 date: 2019-12-24T06:13:39-04:00
-tags: []
+tags: ["poetry"]
 ---
 
 This is copied from my journal that I kept during Bridge DC in summer 2019. [More info about Bridge DC.](/blog/bridge-dc)

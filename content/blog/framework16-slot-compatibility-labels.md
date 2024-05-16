@@ -55,6 +55,11 @@ export BROTHER_QL_PRINTER=file://"$printer"
 brother_ql print -l 62 --red $@
 ```
 
+Then run the script with the images you want to print and the QL-800 will print and cut each one separately, for example:
+```bash
+./print.sh slot1.png slot2.png slot3.png slot4.png slot5.png slot6.png
+```
+
 Note: when attaching the labels, make sure to account for the fact that the reference image in the guide is show when viewed from the top, and it will be reversed when viewed from the bottom.
 
 ## Final Result

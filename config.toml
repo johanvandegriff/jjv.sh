@@ -36,26 +36,30 @@ ignoreFiles = ["gallery/.*"]
     url = "/featured/"
     weight = 4
   [[menu.main]]
+    name = "poetry"
+    url = "/poetry/"
+    weight = 5
+  [[menu.main]]
     name = "videos"
     url = "/videos/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     name = "gallery"
     url = "/gallery/"
-    weight = 6
+    weight = 7
   [[menu.main]]
     name = "resume"
     url = "/resume/"
-    weight = 7
+    weight = 8
   [[menu.main]]
     name = "about"
     url = "/about/"
-    weight = 8
+    weight = 9
   [[menu.main]]
     name = "now"
     url = "/now/"
-    weight = 9
+    weight = 10
   [[menu.main]]
     name = "contact"
     url = "/contact/"
-    weight = 10
+    weight = 11

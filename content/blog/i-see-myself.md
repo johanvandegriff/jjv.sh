@@ -1,7 +1,7 @@
 ---
 title: "I See Myself"
 date: 2023-12-24T02:21:54-05:00
-tags: ["featured"]
+tags: ["featured", "poetry"]
 ---
 
 I look in the mirror and I do not see myself. I put on makeup and I do not see myself. I look at old pictures and I do not see myself.  
