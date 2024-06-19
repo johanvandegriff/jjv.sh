@@ -14,7 +14,7 @@ as a referral bonus which you can use to boost a video's popularity, tip somebod
 I believe that Odysee is the most likely platform to compete with YouTube in the long term, if not overtake it.
 
 I don't post as frequently on other platforms, but you can also find some of my videos on
-[PeerTube](https://diode.zone/c/johanv/videos) (another open source decentralized video platform) or
+[PeerTube](https://makertube.net/c/johanv/videos) (another open source decentralized video platform) or
 [YouTube](https://www.youtube.com/user/@jjvan).
 
 <a target="_blank" href="https://odysee.com/@johanv:5"><img src="odysee_white.png" alt="odysee logo" style="width: 15%; border: 2px solid blue; border-radius: 10px; padding: 5px; background-color: #16091B"><br/>My Odysee Channel: @johanv</a>
