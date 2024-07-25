@@ -8,10 +8,10 @@ viewport: '<meta name="viewport" content="width=device-width, initial-scale=1, m
 ---
   [updated 2022-05-31T02:07:45-4:00]
   <div id="game">
-    <img id="on_img" src="on.jpg" alt="ATinyGame with all LEDs on" style="display:none;" />
-    <img id="dim_img" src="dim.jpg" alt="ATinyGame with all LEDs dim" style="display:none;" />
-    <img id="off_img" src="off.jpg" alt="ATinyGame with all LEDs off" style="display:none; position: absolute; z-index: 0; border-radius: 10%; user-select: none;" />
-    <img id="off_img_noscript" src="off.jpg" alt="ATinyGame with all LEDs off" style="display: block; margin: auto; max-width: calc(85vw - 35px); max-height: calc(85vh - 35px); z-index: 0; border-radius: 10%; user-select: none;" />
+    <img id="on_img" src="v1/on.jpg" alt="ATinyGame with all LEDs on" style="display:none;" />
+    <img id="dim_img" src="v1/dim.jpg" alt="ATinyGame with all LEDs dim" style="display:none;" />
+    <img id="off_img" src="v1/off.jpg" alt="ATinyGame with all LEDs off" style="display:none; position: absolute; z-index: 0; border-radius: 10%; user-select: none;" />
+    <img id="off_img_noscript" src="v1/off.jpg" alt="ATinyGame with all LEDs off" style="display: block; margin: auto; max-width: calc(85vw - 35px); max-height: calc(85vh - 35px); z-index: 0; border-radius: 10%; user-select: none;" />
     <canvas id="LED00" style="position: absolute; z-index: 1;"></canvas>
     <canvas id="LED10" style="position: absolute; z-index: 2;"></canvas>
     <canvas id="LED20" style="position: absolute; z-index: 3;"></canvas>
@@ -1081,14 +1081,14 @@ function play() {
 
   render_init();
 
-  fetch("press.wav")
+  fetch("v1/press.wav")
     .then(function(response) {return response.blob()})
     .then(function(blob) {
       audio_press=URL.createObjectURL(blob);
       new Audio(audio_press); // forces a request for the blob
   });
 
-  fetch("release.wav")
+  fetch("v1/release.wav")
     .then(function(response) {return response.blob()})
     .then(function(blob) {
       audio_release=URL.createObjectURL(blob);
@@ -1101,19 +1101,24 @@ function play() {
 window.onload = play;
   </script>
 
-<p>ATinyGame is a $1 game console that fits in 1 hand, with a program smaller than 1kB. Download the <a target="_blank" href="ATinyGame.pdf">instruction PDF</a> to learn how to use it. Read the harrowing tale of its development: <a target="_blank" href="/blog/the-assembly-instruction-that-saved-christmas/">The Assembly Instruction that Saved Christmas</a>.
-Download the <a target="_blank" href="costs.ods">spreadsheet of costs</a> for the project.
-You can see the <a target="_blank" href="https://oshwlab.com/jjvan/aTinyGame-5a98fb4c47414c39bf407d7c0f4ad94f">board design on EasyEDA</a> (<a target="_blank" href="https://oshwlab.com/jjvan/GamesAttiny-0c60b91066fd4798b2eaa3da66746e06">old version here</a>).
-Note that there are some changes and caveats to this design. The PCB design was incorrect, which required some adjustments and extra components after the fact. More details will be added soon.</p>
+<h2 style="text-align: center">Instructions:</h2>
+<img src="v2/info-card-just-1.svg" alt="instruction card" style="width: 100%; border-radius: 10px; border: 2px solid #181a1b">
+<p style="text-align: center; font-size: medium">Download as <a target="_blank" href="v2/info-card.svg">SVG</a> or <a target="_blank" href="v2/info-card.pdf">PDF</a> (for v1: <a target="_blank" href="v1/ATinyGame.pdf">old PDF</a>)</p>
 
-<img src="ATinyGame.jpg" alt="">
+<p style="text-align: center; font-size: larger">ATinyGame is a game console that fits in 1 hand, with a program smaller than 1kB, all for $1 ($1.50 now, thanks chip shortage).</p>
 
-<p>I might put un-assembled kits up for sale (since it takes me 45 min to solder each one), or at the very least I will post instructions for creating it from scratch. Either way expect tutorials and videos soon! Follow me on <a target="_blank" href="https://fosstodon.org/@johanv">mastodon</a> for updates.</p>
-<p>If you have a question or comment, or if you would like to purchase one, send me and email. <a id="9dda4e98_2" href="#9dda4e98_2" onclick="this.innerHTML='&#x202e;'+'moc'+'&#x2e;'+'liamydnav'+'&#x40;'+'nahoj'+'&#x202d;'">[click to show email address]</a></p>
-
-<p>"1kB you say?", you say. Well here's the code below as loaded onto the ATTiny9. This contains 4 games, a random number generator, a state machine, etc.
-The assembly code is on <a target="_blank" href="https://codeberg.org/johanvandegriff/ATinyGame">Codeberg</a>, <a target="_blank" href="https://git.sr.ht/~johanvandegriff/ATinyGame">Sourcehut</a>, and <a target="_blank" href="https://github.com/johanvandegriff/ATinyGame">Github</a>
+<p style="text-align: left; font-size: larger">
+Read the harrowing tale of its development: <a target="_blank" href="/blog/the-assembly-instruction-that-saved-christmas/">The Assembly Instruction that Saved Christmas</a>.
+Take a look at the circuit diagram and printed circuit board layout on the <a target="_blank" href="https://oshwlab.com/jjvan/atinygame-v2">OSHWLab project</a>.
+See the assembly code (with lots of fun comments on how I golfed it down to 1kB) in <a target="_blank" href="https://codeberg.org/johanvandegriff/ATinyGame">this repo</a>.
+Download the <a target="_blank" href="v2/costs.ods">spreadsheet of costs</a> for the project.
+Expect tutorials and videos soon! Follow me on <a target="_blank" href="https://fosstodon.org/@johanv">mastodon</a> for updates.
 </p>
+
+<img src="v2/ATinyGame2.jpg" alt="v2 of the ATinyGame">
+
+<details style="font-size: larger; border: 2px solid #e8e6e3; border-radius: 5px; padding: 10px">
+<summary>"1kB you say?", you say. Yes indeed! Click to see the exact bytes that are loaded onto the ATTiny9. This includes 5 games, a random number generator, a state machine, charlieplexing input/output, LED brightness control, etc.</summary>
 <pre>
       +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
 4000: E0 E0 EE BF EF E5 ED BF E0 E0 F8 ED FC BF E6 BF 
@@ -1181,3 +1186,12 @@ The assembly code is on <a target="_blank" href="https://codeberg.org/johanvande
 43E0: E2 50 28 F0 E2 50 30 F0 40 61 C4 E0 08 95 70 61 
 43F0: C2 E0 08 95 80 61 C1 E0 08 95 FF FF FF FF FF FF 
 </pre>
+</details>
+
+<br/><br/><br/><br/><br/><br/>
+<h2>Info About v1</h2>
+<p style="font-size: larger">Download the <a target="_blank" href="v1/costs.ods">v1 spreadsheet of costs</a> for the project.
+You can see the <a target="_blank" href="https://oshwlab.com/jjvan/aTinyGame-5a98fb4c47414c39bf407d7c0f4ad94f">v1 board design on EasyEDA</a> (<a target="_blank" href="https://oshwlab.com/jjvan/GamesAttiny-0c60b91066fd4798b2eaa3da66746e06">old version here</a>).
+Note that there are some changes and caveats to this design. The PCB design was incorrect, which required some adjustments and extra components after the fact. The code for v1 and v2 are the same.</p>
+
+<img src="v1/ATinyGame.jpg" alt="v1 of the ATinyGame">

@@ -56,3 +56,4 @@ In 2021 there was a <a target="_blank" href="https://github.com/johanvandegriff?
 I'm tired right now.
 I can control my lights from my phone... with a janky servo attached to the light switch powered by a Raspberry Pi Zero.
 I joined Mastodon in 2017 before it was cool. (It still isn't cool.)
+I have played in a nethack relay race with the creator of Doki Doki Literature Club. The <a target="_blank" href="https://www.youtube.com/watch?v=uEW56wBgy7s">saga</a> began when he transformed into a dragon and laid an egg. Then the save file was passed along to other streamers, including me eventually.
