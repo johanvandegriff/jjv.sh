@@ -1,5 +1,5 @@
 I have a random fact generator on my website.
-These fun facts are stored in johanv.net/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
+These fun facts are stored in jjv.sh/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
 I enjoy playing piano! I was classically trained and now I just play and compose for fun. I can't read sheet music in real time so I play mostly by ear. I have released an <a target="_blank" href="https://odysee.com/@johanv:5/internal-travels:d">album with my piano music</a>, complete with a drawing for each song.
 One time I was playing piano in a hotel lobby when someone asked me to play for him and his girlfriend, and then he proposed to her!
 My favorite movie is The Incredibles.
@@ -27,12 +27,12 @@ I try to use mostly free and open source software, for example Krita instead of 
 I use Xournal++ for note-taking -- you should try it if you have a drawing tablet or touchscreen laptop!
 My siblings and I have been making and filming little skits and stories since we were young. We used to edit them on Windows Movie Maker (yikes!), but now I use Kdenlive and Shotcut and my brother uses DaVinci Resolve.
 I don't drink coffee or tea (except sometimes iced tea). But recently I tried some Ethiopian coffee and it was good.
-For my whole life, I have lived in Maryland. The longest period of time I've spent outside MD was 7 weeks in summer 2019, when I went on an immersive <a href="https://johanv.net/blog/bridge-dc">justice program in DC</a> with the IV Christian Fellowship.
+For my whole life, I have lived in Maryland. The longest period of time I've spent outside MD was 7 weeks in summer 2019, when I went on an immersive <a href="https://jjv.sh/blog/bridge-dc">justice program in DC</a> with the IV Christian Fellowship.
 I have never invested in a pair of earbuds good enough that at least one of the two buds doesn't die within a few months. Right now I have a pair of old apple wired earbuds that someone gave me. Ironic that they can't even plug into an iPhone.
 I have stopped buying water bottles because I just keep losing them. Instead I just buy a juice bottle and reuse it.
 I carry around a USB with 15 different boot options, including some Linux distros, utilities, and backup software.
 I always wish I had more time for things, but when I sometimes do, I waste it on things I hadn't wished I had time for, like writing these fun facts. (Although sometimes the unintended tasks are fun, like writing these fun facts.)
-My Linux distro hop journey has been: Cygwin (on Vista family computer) → Ubuntu (my own desktop!) → Arch (after Ubuntu upgrade killed the OS) → Ubuntu (new laptop for college!) → Mint → Qubes → Manjaro → Pop!_OS → Mint → Ubuntu Studio → Manjaro → Arch (on new frame.work laptop) → Garuda → Manjaro → Ubuntu.
+My Linux distro hop journey has been: Cygwin (on Vista family computer) → Ubuntu (my own desktop!) → Arch (after Ubuntu upgrade killed the OS) → Ubuntu (new laptop for college!) → Mint → Qubes → Manjaro → Pop!_OS → Mint → Ubuntu Studio → Manjaro → Arch (on new frame.work laptop) → Garuda → Manjaro → Ubuntu → Ubuntu Studio.
 I am 1/4 Lebanese and 3/4 white as Swiss cheese.
 My friend and I set up a Nextcloud server in my basement to replace Google Drive, Calendar, etc.
 I was homeschooled until college. Every year, my family would start the first week of school at a remote cabin in the woods. As part of the trip, we always made the "cabin video," documenting the trip and including a skit that we came up with at the cabin and improvised props and costumes based on whatever we happened to have. Gems such as "Goldilocks and the 3 Campers," "Cabin Olympics," "Senior Survivors," "Stories from Summer Camp."
@@ -44,10 +44,10 @@ I use tiling window management (currently pop shell, but bismuth and i3 before t
 I buy computer monitors from the thrift store for $10-$30 each and use them for desktop computers for me and my family/friends.
 I am lucky enough to never have had a Facebook. Right when I was thinking I might cave and get one, the privacy revelations came out, and I decided to never sign up. I'm super glad, since they can be a pain to delete.
 The first programming language I learned was Bash, from a book my Dad gave me called <a target="_blank" href="https://www.goodreads.com/book/show/293206.UNIX_Shell_Programming">UNIX Shell Programming Revised Edition</a>. The book was released in 1989 and I read it around 2009. I remember being fascinated by the fact that you could create a phonebook program to store all your contacts using files, and display them with cool ASCII art formatting. I still have <a target="_blank" href="https://git.sr.ht/~johanvandegriff/unix-shell-programming-revised-edition-programs">the old programs I wrote</a>.
-My favorite programming languages in order are Python, Bash, Java, and C. One of my least favorites is PHP, although I did use it to make this site... (update: the site has been <a target="_blank" href="https://johanv.net/blog/how-i-created-johanv-net/">migrated</a> away from PHP :)
+My favorite programming languages in order are Python, Bash, Java, and C. One of my least favorites is PHP, although I did use it to make this site... (update: the site has been <a target="_blank" href="https://jjv.sh/blog/how-i-created-johanv-net/">migrated</a> away from PHP :)
 I just started playing chess more seriously (on <a target="_blank" href="https://lichess.org/@/jjvan">lichess</a>) and I'm still terrible at it.
 I learned the basics of how to salsa dance.
-I created a streaming service called <a target="_blank" href="https://asciiradio.johanv.net">asciiradio</a> for text and audio only, so I could stream from mobile data.
+I created a streaming service called <a target="_blank" href="https://asciiradio.jjv.sh">asciiradio</a> for text and audio only, so I could stream from mobile data.
 My Mom uses Linux Mint.
 One of my favorite shows is Callisto 6, a tabletop RPG livestream show about superheroes in a cyberpunk setting.
 I've been learning Golang and Elixir recently since I want to take advantage of concurrent programming.

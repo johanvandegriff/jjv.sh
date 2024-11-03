@@ -71,4 +71,4 @@ Note: when attaching the labels, make sure to account for the fact that the refe
 
 ![extra labels from prototyping and proto... typoing](/blog/images/framework16-slot-compatibility/result5.jpg)
 
-Thanks for reading, if you do this yourself let me know [on mastodon](https://fosstodon.org/@johanv) or by [email](https://johanv.net/contact/)!
+Thanks for reading, if you do this yourself let me know [on mastodon](https://fosstodon.org/@johanv) or by [email](/contact)!

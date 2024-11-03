@@ -1,4 +1,4 @@
-Sitemap: https://johanv.net/sitemap.xml
+Sitemap: https://jjv.sh/sitemap.xml
 
 User-Agent: *
 Disallow:

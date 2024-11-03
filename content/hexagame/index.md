@@ -1,7 +1,7 @@
 ---
 title: "HexaGame: Ever played snake, but with 6 directions?"
 description: "HexaGame is a handheld multi-game system that consists of a hexagon of LEDs with buttons surrounding it, as well as a hex-shaped dpad"
-image: "https://johanv.net/hexagame/images/WhackAMole.JPG"
+image: "https://jjv.sh/hexagame/images/WhackAMole.JPG"
 date: 2019-09-03T16:34:13-04:00
 tags: []
 ---

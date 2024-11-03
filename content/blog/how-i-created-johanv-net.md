@@ -1,8 +1,11 @@
 ---
 title: "How I Created johanv.net: Personal Website with Seamless Livestream"
 date: 2022-08-20T19:39:55-04:00
-tags: ["featured"]
+tags: ["how i created"]
 ---
+
+## Update 2024-11-03
+I have since moved to [jjv.sh](https://jjv.sh), read about it [here](/blog/how-i-created-jjv-sh). Keep reading if you want, but most of the links in this article are old.
 
 ## The Backstory
 Ever since I [moved my site to johanv.xyz](/blog/how-i-created-johanv-xyz), some things have been slightly off. When I texted someone a link, they didn't get it. When I visited it at work, it was blocked (and so I couldn't link to it on my "about me" page). It turns out, `.xyz` domains, due to their low price, are heavily involved in scam texts and such. So, I made a short-term solution: pointing `johan.vandegriff.net` (my old site's domain which I still owned) to the same content as `johanv.xyz`.

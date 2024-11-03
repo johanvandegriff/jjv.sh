@@ -1,8 +1,11 @@
 ---
 title: "How I Created johanv.xyz (and subsequently destroyed it)"
 date: 2019-06-08T04:18:50-04:00
-tags: []
+tags: ["how i created"]
 ---
+
+## Update 2024-11-03
+I have since moved to [jjv.sh](https://jjv.sh), read about it [here](/blog/how-i-created-jjv-sh). Keep reading if you want, but most of the links in this article are old.
 
 ## Update 2022-08-05
 I have since moved to [johanv.net](https://johanv.net), read about it [here](/blog/how-i-created-johanv-net). Keep reading if you want, but most of the links in this article are old.

@@ -1,2 +1,5 @@
 #!/bin/bash
-rsync -aP --itemize-changes --delete ~/git/johanvandegriff/johanv.net/ johanv.net:johanv.net/hugo/ --exclude public --exclude resources/_gen $@
+src=~/git/johanvandegriff/jjv.sh/
+dst=confuzer:/brick/websites/docker/jjv.sh/hugo/
+
+rsync -aP --itemize-changes --delete "$src" "$dst" --exclude public --exclude resources/_gen $@

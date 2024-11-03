@@ -1,6 +1,6 @@
-baseURL = "https://johanv.net/"
+baseURL = "https://jjv.sh/"
 languageCode = "en-us"
-title = "johanv.net"
+title = "jjv.sh"
 theme = "hugowncast"
 timeout = "5m"
 disablePathToLower = true
@@ -16,7 +16,7 @@ ignoreFiles = ["gallery/.*"]
 [params]
   description = "Johan Vandegriff's website and livestream, including games, videos, blog, drawings, music, electronics projects, and more."
   author = "Johan Vandegriff"
-  image = "https://johanv.net/logo"
+  image = "https://jjv.sh/logo"
 
 [menu]
   [[menu.main]]
@@ -25,7 +25,7 @@ ignoreFiles = ["gallery/.*"]
     weight = 1
   [[menu.main]]
     name = "games"
-    url = "https://games.johanv.net/"
+    url = "https://games.jjv.sh/"
     weight = 2
   [[menu.main]]
     name = "blog"

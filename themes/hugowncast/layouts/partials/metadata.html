@@ -6,7 +6,7 @@
 {{- end -}} -->
 {{ if gt (len (.GetTerms "tags")) 0 -}}
     🏷
-    {{- range (.GetTerms "tags") -}}
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    {{ end -}}
+    {{- range $i, $tag := (.GetTerms "tags") -}}
+        {{- if ne $i 0 -}}, {{ end -}}<a href="{{ .RelPermalink }}">{{- .LinkTitle -}}</a>
+    {{- end -}}
 {{- end -}}
