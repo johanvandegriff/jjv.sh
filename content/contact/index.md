@@ -1,6 +1,6 @@
 ---
-title: "Contact Me (I may even respond)"
-description: "Johan Vandegriff's contact info and ways to contact him securely with Tutanota, Protonmail, or Element"
+title: "Contact Me (I might even respond)"
+description: "Get in touch with me by email or securely (or both!)"
 ---
 
 ## How to Contact Me Simply

@@ -1,6 +1,6 @@
 ---
 title: "My Config Files (Now Managed with Git and Ansible)"
-description: "Johan Vandegriff's config files for zsh, emacs, tmux, nano, nethack, etc."
+description: "JJ Vandegriff's config files for zsh, emacs, tmux, nano, nethack, etc."
 date: 2019-08-01T23:37:18-04:00
 tags: []
 ---

@@ -14,8 +14,8 @@ ignoreFiles = ["gallery/.*"]
   tags = "/:title/"
 
 [params]
-  description = "Johan Vandegriff's website and livestream, including games, videos, blog, drawings, music, electronics projects, and more."
-  author = "Johan Vandegriff"
+  description = "JJ Vandegriff's website and livestream, including games, videos, blog, drawings, music, electronics projects, and more."
+  author = "JJ Vandegriff"
   image = "https://jjv.sh/logo"
 
 [menu]
