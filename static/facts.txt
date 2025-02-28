@@ -13,7 +13,7 @@ One of my favorite tabletop games is Dominion, a deck-building strategy game. I 
 When I was a baby, I turned <span style="color: orange">orange</span> because I ate too many carrots and sweet potatoes. It was... a UGE moment for me.
 I love to create electronic games and projects with Arduino boards! My first big project was a Whack-A-Mole game inspired by the Make Magazine volume 24's "Zap-A-Mole."
 I did FTC robotics in highschool on team 7393; I was the co-programmer. Go <a target="_blank" href="https://ftc7393.org">electron Volts</a>!
-I technically lived in a basement for the 2 years. Whether that basement was fully furnished or was in fact 2 separate basements over that time period is up for speculation.
+I technically lived in a basement for 2 years. Whether that basement was fully furnished or was in fact 2 separate basements over that time period is up for speculation.
 I have run a few D&D one-shot games and I wish I had time for more.
 I still play Minecraft sometimes. These kids with their newfangled comparators and observer blocks put my old redstone contraptions to shame!
 I almost played Fortnite once.
