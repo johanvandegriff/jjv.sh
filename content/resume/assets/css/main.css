@@ -856,45 +856,45 @@ body.is-menu-visible #menu .close {
   opacity: 0;
 }
 
-.a a .img-hover.arduinoled {
+.a a .img-hover.atinygame {
   background: #70e0be;
 }
-.a a .img-hover.nasa-gsfc {
+.a a .img-hover.c1 {
   background: #da9dd9;
 }
 
-.a a .img-hover.ftc-robotics {
-  background: #f4a1a7;
-}
 .a a .img-hover.boggle {
   background: #8c92fe;
 }
-.a a .img-hover.apl {
+.a a .img-hover.multibot {
   background: #f7ca8a;
+}
+.a a .img-hover.jjv-sh {
+  background: #f4a1a7;
 }
 .a a .img-hover.oscar {
   background: #70e0be;
 }
-.a a .img-hover.state-machine-framework {
+.a a .img-hover.answermator {
   background: #9bcef7;
 }
-.a a .img-hover.johanv-xyz {
+.a a .img-hover.carl {
   background: #da9dd9;
 }
 
-.a a .img-hover.carl {
+.a a .img-hover.home-server {
   background: #8c92fe;
 }
 .a a .img-hover.stoichiometry {
   background: #f7ca8a;
 }
-.a a .img-hover.answermator {
+.a a .img-hover.apl {
   background:#f4a1a7;
 }
-.a a .img-hover.home-server {
+.a a .img-hover.ftc-robotics {
   background: #70e0be;
 }
-.a a .img-hover.zfs-server-cluster-setup {
+.a a .img-hover.state-machine-framework {
   background: #9bcef7;
 }
 .a a .img-hover.eagle-scout-project {
@@ -946,6 +946,7 @@ body.is-menu-visible #menu .close {
   margin-bottom: 35px;
   margin-left: 15px;
   margin-top: 10px;
+  font-style: italic;
 }
 
 .popup-parapraph {
