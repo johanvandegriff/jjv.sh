@@ -8,8 +8,8 @@ tags: []
 I use the raspberry pi to connect to my thrift store keyboard with a USB MIDI cable so that I can use better software instruments than the crappy ones built in to the keyboard.
 
 I have made 2 songs using this so far:
-[MIDI Cable Is Here](https://odysee.com/@johanv:5/midi-cable-is-here:c) &
-[Magically Infinite Dank Inspiration](https://odysee.com/@johanv:5/midi-magically-infinite-dank-inspiration:5)
+[MIDI Cable Is Here](https://odysee.com/@epjane:5/midi-cable-is-here:c) &
+[Magically Infinite Dank Inspiration](https://odysee.com/@epjane:5/midi-magically-infinite-dank-inspiration:5)
 
 In addition to plugging in some headphones to the Pi and hearing the sound, I also wanted the option to pipe the audio to another device at the same time. The problem was that the user interface on the Pi only allows you to select one audio output at a time. After some digging online, I found [this post](http://www.6by9.net/output-to-multiple-audio-devices-with-alsa/) on how to output to 2 devices. However this guide was general, and the device names were wrong for the Pi. So I eventually found out that you can do `aplay --list-pcms` to get the right names, so I put the name for the HDMI device and the audio jack device into the config file.
 

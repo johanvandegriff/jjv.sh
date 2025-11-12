@@ -1,6 +1,6 @@
 I have a random fact generator on my website.
 These fun facts are stored in jjv.sh/facts.txt Shh, don't tell anybody, then they could view all the facts! ;)
-I enjoy playing piano! I was classically trained and now I just play and compose for fun. I can't read sheet music in real time so I play mostly by ear. I have released an <a target="_blank" href="https://odysee.com/@johanv:5/internal-travels:d">album with my piano music</a>, complete with a drawing for each song.
+I enjoy playing piano! I was classically trained and now I just play and compose for fun. I can't read sheet music in real time so I play mostly by ear. I have released an <a target="_blank" href="https://odysee.com/@epjane:5/internal-travels:d">album with my piano music</a>, complete with a drawing for each song.
 One time I was playing piano in a hotel lobby when someone asked me to play for him and his girlfriend, and then he proposed to her!
 My favorite movie is The Incredibles.
 My favorite color is <span style="color: blue">blue</span>. No, <span style="color: orange">orange</span>! No, <span style="color: purple">purple</span>! I'm indecisive...
@@ -19,7 +19,7 @@ I still play Minecraft sometimes. These kids with their newfangled comparators a
 I almost played Fortnite once.
 My favorite computer game as a kid was The Incredible Machine: Even More Contraptions. I can still play it, now using Wine on Linux -- glad we kept the CD!
 My favorite computer game is Nethack, a roguelike from 1987 that is still being developed today. I have a 5 game win streak with a different class each game, despite death being permanent (no restoring to save points).
-One of my favorite games is Teeworlds, a side-scrolling capture-the-flag first-person-shooter and-other-dashed-words game. I am currently the person on Odysee with the most views on <a target="_blank" href="https://odysee.com/@johanv/owning-some-noobs-on-teeworlds">Teeworlds videos</a>.
+One of my favorite games is Teeworlds, a side-scrolling capture-the-flag first-person-shooter and-other-dashed-words game. I am currently the person on Odysee with the most views on <a target="_blank" href="https://odysee.com/@epjane/owning-some-noobs-on-teeworlds">Teeworlds videos</a>.
 I dabble in digital art with a Framework 12. Sometimes I play <a target="_blank" href="https://drawception.com/player/962191/epjane/drawings/1/">Drawception</a> to practice and have fun.
 I try to use mostly free and open source software, for example Krita instead of Photoshop, Libreoffice instead of Microsoft Office, Nextcloud instead of Google Drive. It saves a lot of money and it's a joy to be free of the tech giants!
 I use Xournal++ for note-taking -- you should try it if you have a drawing tablet or touchscreen laptop!
