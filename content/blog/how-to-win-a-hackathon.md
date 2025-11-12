@@ -4,7 +4,7 @@ date: 2020-02-04T14:26:36-04:00
 tags: ["featured"]
 ---
 
-I just got back from Hoya Hacks, a hackathon a Georgetown this past weekend. Someone asked me by email what tips I had to win hackathons (since I [have won multiple prizes](https://devpost.com/johanvandegriff) heh heh :), and I responded:
+I just got back from Hoya Hacks, a hackathon a Georgetown this past weekend. Someone asked me by email what tips I had to win hackathons (since I [have won multiple prizes](https://devpost.com/epjane) heh heh :), and I responded:
 
  * Incorporate some hardware, such as Raspberry Pi or Arduino. Hoya Hacks didn't have a prize for best hardware, but some do and either way, hardware usually makes your project stand out.
  * I like to bring my own hardware because the MLH hardware lab sometimes doesn't have a great selection, or they run out. If you come to Bitcamp (at UMD in April), I can lend you some stuff.
