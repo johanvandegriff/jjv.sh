@@ -91,5 +91,5 @@ Here are some links to my profile on some private services I use, some of which 
 * [my Mastodon profile](https://fosstodon.org/@epjane), which is on an instance called [FOSStodon](https://fosstodon.org/), named after FOSS (Free and Open Source Software, as mentioned in the guide)
 * [my videos on PeerTube](https://makertube.net/c/epjane), on the [makertube.net](https://makertube.net/) instance
 * [my videos on LBRY](https://odysee.com/@epjane:5)
-* [my LBRY referral link](https://odysee.com/$/invite/@johanv:5), which you should use when signing up to give both of us a bonus
+* [my LBRY referral link](https://odysee.com/$/invite/@epjane:5), which you should use when signing up to give both of us a bonus
 * [my YouTube videos through invidious](https://yewtu.be/channel/UCmrLaVZneWG3kJyPqp-RFJQ) as an example
